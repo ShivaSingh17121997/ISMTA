@@ -1,0 +1,22 @@
+# /etc/systemd/system/smt-be.service — the SMT backend (built JS, not ts-node-dev).
+# systemd restarts it if it exits; SIGTERM lets the server stop its engines cleanly.
+[Unit]
+Description=SMT backend (API, engines, WebSocket)
+After=network-online.target mongod.service
+Wants=network-online.target
+Requires=mongod.service
+
+[Service]
+User=ubuntu
+WorkingDirectory=/home/ubuntu/smt/BE
+Environment=NODE_ENV=production
+ExecStart=/usr/bin/node dist/server.js
+Restart=always
+RestartSec=10
+# Give in-flight order handling time to finish before a forced kill.
+TimeoutStopSec=60
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

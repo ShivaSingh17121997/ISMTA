@@ -1,0 +1,17 @@
+# /etc/systemd/system/smt-fe.service — the SMT frontend (Next.js production server).
+[Unit]
+Description=SMT frontend (Next.js)
+After=network-online.target smt-be.service
+
+[Service]
+User=ubuntu
+WorkingDirectory=/home/ubuntu/smt/FE/ismta
+Environment=NODE_ENV=production
+ExecStart=/usr/bin/npx next start -p 3002 -H 127.0.0.1
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

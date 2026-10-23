@@ -1,0 +1,13 @@
+# /etc/caddy/Caddyfile — HTTPS in front of both apps. Caddy gets and renews the
+# certificates itself. Replace yourdomain.com with your domain.
+# WebSockets (/ws) are proxied automatically.
+
+api.yourdomain.com {
+	encode gzip
+	reverse_proxy 127.0.0.1:4000
+}
+
+app.yourdomain.com {
+	encode gzip
+	reverse_proxy 127.0.0.1:3002
+}

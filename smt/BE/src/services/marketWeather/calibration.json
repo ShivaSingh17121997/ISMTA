@@ -1,0 +1,4946 @@
+{
+ "version": 1,
+ "index": "sensex",
+ "from": "1998-07-27",
+ "to": "2026-10-09",
+ "split": "2012-01-01",
+ "horizonDays": 63,
+ "fallThreshold": -0.1,
+ "breadthFrom": "1997-10-07",
+ "baseline": {
+  "all": {
+   "days": 6889,
+   "episodes": 1,
+   "hitRate": 0.2127,
+   "meanFwdRet": 0.0368,
+   "lift": 1
+  },
+  "halves": [
+   {
+    "days": 3324,
+    "episodes": 1,
+    "hitRate": 0.3409,
+    "meanFwdRet": 0.0445,
+    "lift": 1
+   },
+   {
+    "days": 3565,
+    "episodes": 1,
+    "hitRate": 0.0931,
+    "meanFwdRet": 0.0296,
+    "lift": 1
+   }
+  ]
+ },
+ "priorReturn": [
+  {
+   "lookbackDays": 63,
+   "buckets": [
+    {
+     "label": "Fell more than 10%",
+     "lo": null,
+     "hi": -0.1,
+     "cell": {
+      "days": 646,
+      "episodes": 24,
+      "hitRate": 0.3375,
+      "meanFwdRet": 0.027,
+      "lift": 1.59
+     }
+    },
+    {
+     "label": "Fell 0–10%",
+     "lo": -0.1,
+     "hi": 0,
+     "cell": {
+      "days": 1932,
+      "episodes": 47,
+      "hitRate": 0.2438,
+      "meanFwdRet": 0.0406,
+      "lift": 1.15
+     }
+    },
+    {
+     "label": "Rose 0–10%",
+     "lo": 0,
+     "hi": 0.1,
+     "cell": {
+      "days": 2606,
+      "episodes": 61,
+      "hitRate": 0.1577,
+      "meanFwdRet": 0.0281,
+      "lift": 0.74
+     }
+    },
+    {
+     "label": "Rose 10–20%",
+     "lo": 0.1,
+     "hi": 0.2,
+     "cell": {
+      "days": 1181,
+      "episodes": 39,
+      "hitRate": 0.1897,
+      "meanFwdRet": 0.0391,
+      "lift": 0.89
+     }
+    },
+    {
+     "label": "Rose 20–30%",
+     "lo": 0.2,
+     "hi": 0.3,
+     "cell": {
+      "days": 385,
+      "episodes": 17,
+      "hitRate": 0.2831,
+      "meanFwdRet": 0.0665,
+      "lift": 1.33
+     }
+    },
+    {
+     "label": "Rose 30–50%",
+     "lo": 0.3,
+     "hi": 0.5,
+     "cell": {
+      "days": 112,
+      "episodes": 9,
+      "hitRate": 0.2143,
+      "meanFwdRet": 0.0909,
+      "lift": 1.01
+     }
+    },
+    {
+     "label": "Rose more than 50%",
+     "lo": 0.5,
+     "hi": null,
+     "cell": {
+      "days": 27,
+      "episodes": 1,
+      "hitRate": 0.2963,
+      "meanFwdRet": 0.0959,
+      "lift": 1.39
+     }
+    }
+   ]
+  },
+  {
+   "lookbackDays": 126,
+   "buckets": [
+    {
+     "label": "Fell more than 10%",
+     "lo": null,
+     "hi": -0.1,
+     "cell": {
+      "days": 975,
+      "episodes": 16,
+      "hitRate": 0.3826,
+      "meanFwdRet": 0.0442,
+      "lift": 1.8
+     }
+    },
+    {
+     "label": "Fell 0–10%",
+     "lo": -0.1,
+     "hi": 0,
+     "cell": {
+      "days": 1219,
+      "episodes": 44,
+      "hitRate": 0.2149,
+      "meanFwdRet": 0.0211,
+      "lift": 1.01
+     }
+    },
+    {
+     "label": "Rose 0–10%",
+     "lo": 0,
+     "hi": 0.1,
+     "cell": {
+      "days": 2111,
+      "episodes": 45,
+      "hitRate": 0.1303,
+      "meanFwdRet": 0.0373,
+      "lift": 0.61
+     }
+    },
+    {
+     "label": "Rose 10–20%",
+     "lo": 0.1,
+     "hi": 0.2,
+     "cell": {
+      "days": 1336,
+      "episodes": 41,
+      "hitRate": 0.1549,
+      "meanFwdRet": 0.0364,
+      "lift": 0.73
+     }
+    },
+    {
+     "label": "Rose 20–30%",
+     "lo": 0.2,
+     "hi": 0.3,
+     "cell": {
+      "days": 502,
+      "episodes": 27,
+      "hitRate": 0.245,
+      "meanFwdRet": 0.0408,
+      "lift": 1.15
+     }
+    },
+    {
+     "label": "Rose 30–50%",
+     "lo": 0.3,
+     "hi": 0.5,
+     "cell": {
+      "days": 561,
+      "episodes": 17,
+      "hitRate": 0.3244,
+      "meanFwdRet": 0.047,
+      "lift": 1.53
+     }
+    },
+    {
+     "label": "Rose more than 50%",
+     "lo": 0.5,
+     "hi": null,
+     "cell": {
+      "days": 185,
+      "episodes": 5,
+      "hitRate": 0.2324,
+      "meanFwdRet": 0.0573,
+      "lift": 1.09
+     }
+    }
+   ]
+  },
+  {
+   "lookbackDays": 252,
+   "buckets": [
+    {
+     "label": "Fell more than 10%",
+     "lo": null,
+     "hi": -0.1,
+     "cell": {
+      "days": 1013,
+      "episodes": 14,
+      "hitRate": 0.3179,
+      "meanFwdRet": 0.0692,
+      "lift": 1.49
+     }
+    },
+    {
+     "label": "Fell 0–10%",
+     "lo": -0.1,
+     "hi": 0,
+     "cell": {
+      "days": 826,
+      "episodes": 30,
+      "hitRate": 0.2663,
+      "meanFwdRet": 0.0086,
+      "lift": 1.25
+     }
+    },
+    {
+     "label": "Rose 0–10%",
+     "lo": 0,
+     "hi": 0.1,
+     "cell": {
+      "days": 1330,
+      "episodes": 36,
+      "hitRate": 0.1406,
+      "meanFwdRet": 0.0379,
+      "lift": 0.66
+     }
+    },
+    {
+     "label": "Rose 10–20%",
+     "lo": 0.1,
+     "hi": 0.2,
+     "cell": {
+      "days": 1357,
+      "episodes": 39,
+      "hitRate": 0.1636,
+      "meanFwdRet": 0.0179,
+      "lift": 0.77
+     }
+    },
+    {
+     "label": "Rose 20–30%",
+     "lo": 0.2,
+     "hi": 0.3,
+     "cell": {
+      "days": 767,
+      "episodes": 29,
+      "hitRate": 0.1643,
+      "meanFwdRet": 0.0226,
+      "lift": 0.77
+     }
+    },
+    {
+     "label": "Rose 30–50%",
+     "lo": 0.3,
+     "hi": 0.5,
+     "cell": {
+      "days": 829,
+      "episodes": 21,
+      "hitRate": 0.146,
+      "meanFwdRet": 0.0796,
+      "lift": 0.69
+     }
+    },
+    {
+     "label": "Rose more than 50%",
+     "lo": 0.5,
+     "hi": null,
+     "cell": {
+      "days": 767,
+      "episodes": 16,
+      "hitRate": 0.3481,
+      "meanFwdRet": 0.024,
+      "lift": 1.64
+     }
+    }
+   ]
+  }
+ ],
+ "signals": [
+  {
+   "id": "breadthDivergence",
+   "split": "2012-01-01",
+   "all": {
+    "days": 253,
+    "episodes": 10,
+    "hitRate": 0.3834,
+    "meanFwdRet": -0.0638,
+    "lift": 1.8
+   },
+   "halves": [
+    {
+     "days": 2,
+     "episodes": 1,
+     "hitRate": 1,
+     "meanFwdRet": -0.3125,
+     "lift": 2.93
+    },
+    {
+     "days": 251,
+     "episodes": 9,
+     "hitRate": 0.3785,
+     "meanFwdRet": -0.0618,
+     "lift": 4.06
+    }
+   ],
+   "baseFwdRet": [
+    0.0445,
+    0.0296
+   ],
+   "turbulence": {
+    "all": {
+     "days": 253,
+     "episodes": 10,
+     "hitRate": 0.2055,
+     "meanFwdRet": -0.016,
+     "lift": 0.84
+    },
+    "halves": [
+     {
+      "days": 2,
+      "episodes": 1,
+      "hitRate": 1,
+      "meanFwdRet": -0.1277,
+      "lift": 2.79
+     },
+     {
+      "days": 251,
+      "episodes": 9,
+      "hitRate": 0.1992,
+      "meanFwdRet": -0.0151,
+      "lift": 1.4
+     }
+    ]
+   }
+  },
+  {
+   "id": "vixSpike",
+   "split": "2017-07-06",
+   "all": {
+    "days": 75,
+    "episodes": 26,
+    "hitRate": 0.3467,
+    "meanFwdRet": 0.0098,
+    "lift": 2.3
+   },
+   "halves": [
+    {
+     "days": 38,
+     "episodes": 15,
+     "hitRate": 0.2895,
+     "meanFwdRet": 0.0076,
+     "lift": 1.44
+    },
+    {
+     "days": 37,
+     "episodes": 11,
+     "hitRate": 0.4054,
+     "meanFwdRet": 0.012,
+     "lift": 4.07
+    }
+   ],
+   "baseFwdRet": [
+    0.0261,
+    0.0286
+   ],
+   "turbulence": {
+    "all": {
+     "days": 75,
+     "episodes": 26,
+     "hitRate": 0.4267,
+     "meanFwdRet": -0.0059,
+     "lift": 2.12
+    },
+    "halves": [
+     {
+      "days": 38,
+      "episodes": 15,
+      "hitRate": 0.3947,
+      "meanFwdRet": 0.0038,
+      "lift": 1.51
+     },
+     {
+      "days": 37,
+      "episodes": 11,
+      "hitRate": 0.4595,
+      "meanFwdRet": -0.0158,
+      "lift": 3.29
+     }
+    ]
+   }
+  },
+  {
+   "id": "below200",
+   "split": "2012-01-01",
+   "all": {
+    "days": 2072,
+    "episodes": 27,
+    "hitRate": 0.2973,
+    "meanFwdRet": 0.0339,
+    "lift": 1.4
+   },
+   "halves": [
+    {
+     "days": 1268,
+     "episodes": 11,
+     "hitRate": 0.4203,
+     "meanFwdRet": 0.0217,
+     "lift": 1.23
+    },
+    {
+     "days": 804,
+     "episodes": 17,
+     "hitRate": 0.1032,
+     "meanFwdRet": 0.053,
+     "lift": 1.11
+    }
+   ],
+   "baseFwdRet": [
+    0.0445,
+    0.0296
+   ],
+   "turbulence": {
+    "all": {
+     "days": 2114,
+     "episodes": 27,
+     "hitRate": 0.3311,
+     "meanFwdRet": 0.0112,
+     "lift": 1.35
+    },
+    "halves": [
+     {
+      "days": 1268,
+      "episodes": 11,
+      "hitRate": 0.4196,
+      "meanFwdRet": 0.0052,
+      "lift": 1.17
+     },
+     {
+      "days": 846,
+      "episodes": 17,
+      "hitRate": 0.1986,
+      "meanFwdRet": 0.0201,
+      "lift": 1.39
+     }
+    ]
+   }
+  },
+  {
+   "id": "deathCross",
+   "split": "2012-01-01",
+   "all": {
+    "days": 2171,
+    "episodes": 18,
+    "hitRate": 0.298,
+    "meanFwdRet": 0.034,
+    "lift": 1.4
+   },
+   "halves": [
+    {
+     "days": 1297,
+     "episodes": 7,
+     "hitRate": 0.421,
+     "meanFwdRet": 0.0246,
+     "lift": 1.24
+    },
+    {
+     "days": 874,
+     "episodes": 12,
+     "hitRate": 0.1156,
+     "meanFwdRet": 0.0478,
+     "lift": 1.24
+    }
+   ],
+   "baseFwdRet": [
+    0.0445,
+    0.0296
+   ],
+   "turbulence": {
+    "all": {
+     "days": 2213,
+     "episodes": 18,
+     "hitRate": 0.3109,
+     "meanFwdRet": 0.0107,
+     "lift": 1.26
+    },
+    "halves": [
+     {
+      "days": 1297,
+      "episodes": 7,
+      "hitRate": 0.4102,
+      "meanFwdRet": 0.0068,
+      "lift": 1.14
+     },
+     {
+      "days": 916,
+      "episodes": 12,
+      "hitRate": 0.1703,
+      "meanFwdRet": 0.0161,
+      "lift": 1.19
+     }
+    ]
+   }
+  },
+  {
+   "id": "spxBelow200",
+   "split": "2012-01-01",
+   "all": {
+    "days": 1878,
+    "episodes": 28,
+    "hitRate": 0.3323,
+    "meanFwdRet": 0.026,
+    "lift": 1.56
+   },
+   "halves": [
+    {
+     "days": 1333,
+     "episodes": 13,
+     "hitRate": 0.4344,
+     "meanFwdRet": 0.0176,
+     "lift": 1.27
+    },
+    {
+     "days": 545,
+     "episodes": 16,
+     "hitRate": 0.0826,
+     "meanFwdRet": 0.0465,
+     "lift": 0.89
+    }
+   ],
+   "baseFwdRet": [
+    0.0445,
+    0.0296
+   ],
+   "turbulence": {
+    "all": {
+     "days": 1878,
+     "episodes": 28,
+     "hitRate": 0.3733,
+     "meanFwdRet": 0.0069,
+     "lift": 1.52
+    },
+    "halves": [
+     {
+      "days": 1333,
+      "episodes": 13,
+      "hitRate": 0.4366,
+      "meanFwdRet": 0.0025,
+      "lift": 1.22
+     },
+     {
+      "days": 545,
+      "episodes": 16,
+      "hitRate": 0.2183,
+      "meanFwdRet": 0.0176,
+      "lift": 1.53
+     }
+    ]
+   }
+  },
+  {
+   "id": "oilShock",
+   "split": "2012-01-01",
+   "all": {
+    "days": 419,
+    "episodes": 19,
+    "hitRate": 0.2625,
+    "meanFwdRet": 0.0164,
+    "lift": 1.35
+   },
+   "halves": [
+    {
+     "days": 194,
+     "episodes": 11,
+     "hitRate": 0.4897,
+     "meanFwdRet": 0.0005,
+     "lift": 1.5
+    },
+    {
+     "days": 225,
+     "episodes": 8,
+     "hitRate": 0.0667,
+     "meanFwdRet": 0.03,
+     "lift": 0.72
+    }
+   ],
+   "baseFwdRet": [
+    0.0438,
+    0.0296
+   ],
+   "turbulence": {
+    "all": {
+     "days": 419,
+     "episodes": 19,
+     "hitRate": 0.3389,
+     "meanFwdRet": 0.0043,
+     "lift": 1.47
+    },
+    "halves": [
+     {
+      "days": 194,
+      "episodes": 11,
+      "hitRate": 0.5619,
+      "meanFwdRet": -0.0055,
+      "lift": 1.62
+     },
+     {
+      "days": 225,
+      "episodes": 8,
+      "hitRate": 0.1467,
+      "meanFwdRet": 0.0128,
+      "lift": 1.03
+     }
+    ]
+   }
+  },
+  {
+   "id": "indiaVixHigh",
+   "split": "2017-07-03",
+   "all": {
+    "days": 791,
+    "episodes": 19,
+    "hitRate": 0.2908,
+    "meanFwdRet": 0.0522,
+    "lift": 1.92
+   },
+   "halves": [
+    {
+     "days": 660,
+     "episodes": 11,
+     "hitRate": 0.3318,
+     "meanFwdRet": 0.0401,
+     "lift": 1.65
+    },
+    {
+     "days": 131,
+     "episodes": 8,
+     "hitRate": 0.084,
+     "meanFwdRet": 0.113,
+     "lift": 0.84
+    }
+   ],
+   "baseFwdRet": [
+    0.0259,
+    0.0286
+   ],
+   "turbulence": {
+    "all": {
+     "days": 791,
+     "episodes": 19,
+     "hitRate": 0.3603,
+     "meanFwdRet": 0.0268,
+     "lift": 1.78
+    },
+    "halves": [
+     {
+      "days": 660,
+      "episodes": 11,
+      "hitRate": 0.3909,
+      "meanFwdRet": 0.0219,
+      "lift": 1.48
+     },
+     {
+      "days": 131,
+      "episodes": 8,
+      "hitRate": 0.2061,
+      "meanFwdRet": 0.0515,
+      "lift": 1.48
+     }
+    ]
+   }
+  },
+  {
+   "id": "usVixHigh",
+   "split": "2012-01-01",
+   "all": {
+    "days": 1405,
+    "episodes": 42,
+    "hitRate": 0.2498,
+    "meanFwdRet": 0.0718,
+    "lift": 1.17
+   },
+   "halves": [
+    {
+     "days": 1026,
+     "episodes": 20,
+     "hitRate": 0.3207,
+     "meanFwdRet": 0.0661,
+     "lift": 0.94
+    },
+    {
+     "days": 379,
+     "episodes": 22,
+     "hitRate": 0.058,
+     "meanFwdRet": 0.0874,
+     "lift": 0.62
+    }
+   ],
+   "baseFwdRet": [
+    0.0445,
+    0.0296
+   ],
+   "turbulence": {
+    "all": {
+     "days": 1405,
+     "episodes": 42,
+     "hitRate": 0.3687,
+     "meanFwdRet": 0.0223,
+     "lift": 1.5
+    },
+    "halves": [
+     {
+      "days": 1026,
+      "episodes": 20,
+      "hitRate": 0.4211,
+      "meanFwdRet": 0.0187,
+      "lift": 1.18
+     },
+     {
+      "days": 379,
+      "episodes": 22,
+      "hitRate": 0.2269,
+      "meanFwdRet": 0.032,
+      "lift": 1.59
+     }
+    ]
+   }
+  },
+  {
+   "id": "rupeeWeak",
+   "split": "2012-01-01",
+   "all": {
+    "days": 1146,
+    "episodes": 32,
+    "hitRate": 0.1928,
+    "meanFwdRet": 0.0546,
+    "lift": 1.14
+   },
+   "halves": [
+    {
+     "days": 420,
+     "episodes": 10,
+     "hitRate": 0.3881,
+     "meanFwdRet": 0.0642,
+     "lift": 1.25
+    },
+    {
+     "days": 726,
+     "episodes": 23,
+     "hitRate": 0.0799,
+     "meanFwdRet": 0.0491,
+     "lift": 0.86
+    }
+   ],
+   "baseFwdRet": [
+    0.0527,
+    0.0296
+   ],
+   "turbulence": {
+    "all": {
+     "days": 1155,
+     "episodes": 32,
+     "hitRate": 0.2736,
+     "meanFwdRet": 0.0171,
+     "lift": 1.29
+    },
+    "halves": [
+     {
+      "days": 420,
+      "episodes": 10,
+      "hitRate": 0.4405,
+      "meanFwdRet": 0.0092,
+      "lift": 1.28
+     },
+     {
+      "days": 735,
+      "episodes": 23,
+      "hitRate": 0.1782,
+      "meanFwdRet": 0.0216,
+      "lift": 1.25
+     }
+    ]
+   }
+  },
+  {
+   "id": "yieldsUp",
+   "split": "2012-01-01",
+   "all": {
+    "days": 734,
+    "episodes": 18,
+    "hitRate": 0.1144,
+    "meanFwdRet": 0.0589,
+    "lift": 0.54
+   },
+   "halves": [
+    {
+     "days": 276,
+     "episodes": 10,
+     "hitRate": 0.2174,
+     "meanFwdRet": 0.0686,
+     "lift": 0.64
+    },
+    {
+     "days": 458,
+     "episodes": 8,
+     "hitRate": 0.0524,
+     "meanFwdRet": 0.0532,
+     "lift": 0.56
+    }
+   ],
+   "baseFwdRet": [
+    0.0445,
+    0.0296
+   ],
+   "turbulence": {
+    "all": {
+     "days": 736,
+     "episodes": 19,
+     "hitRate": 0.2092,
+     "meanFwdRet": 0.023,
+     "lift": 0.85
+    },
+    "halves": [
+     {
+      "days": 276,
+      "episodes": 10,
+      "hitRate": 0.3188,
+      "meanFwdRet": 0.0378,
+      "lift": 0.89
+     },
+     {
+      "days": 460,
+      "episodes": 9,
+      "hitRate": 0.1435,
+      "meanFwdRet": 0.0142,
+      "lift": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "overheated",
+   "split": "2012-01-01",
+   "all": {
+    "days": 1186,
+    "episodes": 14,
+    "hitRate": 0.274,
+    "meanFwdRet": 0.042,
+    "lift": 1.29
+   },
+   "halves": [
+    {
+     "days": 961,
+     "episodes": 10,
+     "hitRate": 0.3382,
+     "meanFwdRet": 0.0418,
+     "lift": 0.99
+    },
+    {
+     "days": 225,
+     "episodes": 4,
+     "hitRate": 0,
+     "meanFwdRet": 0.0428,
+     "lift": 0
+    }
+   ],
+   "baseFwdRet": [
+    0.0445,
+    0.0296
+   ],
+   "turbulence": {
+    "all": {
+     "days": 1186,
+     "episodes": 14,
+     "hitRate": 0.3035,
+     "meanFwdRet": 0.0153,
+     "lift": 1.23
+    },
+    "halves": [
+     {
+      "days": 961,
+      "episodes": 10,
+      "hitRate": 0.3444,
+      "meanFwdRet": 0.0158,
+      "lift": 0.96
+     },
+     {
+      "days": 225,
+      "episodes": 4,
+      "hitRate": 0.1289,
+      "meanFwdRet": 0.0133,
+      "lift": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "id": "washedOut",
+   "split": "2012-01-01",
+   "all": {
+    "days": 1475,
+    "episodes": 25,
+    "hitRate": 0.32,
+    "meanFwdRet": 0.0395,
+    "lift": 1.5
+   },
+   "halves": [
+    {
+     "days": 932,
+     "episodes": 11,
+     "hitRate": 0.4764,
+     "meanFwdRet": 0.0195,
+     "lift": 1.4
+    },
+    {
+     "days": 543,
+     "episodes": 15,
+     "hitRate": 0.0516,
+     "meanFwdRet": 0.0739,
+     "lift": 0.55
+    }
+   ],
+   "baseFwdRet": [
+    0.0445,
+    0.0296
+   ],
+   "turbulence": {
+    "all": {
+     "days": 1475,
+     "episodes": 25,
+     "hitRate": 0.3573,
+     "meanFwdRet": 0.0138,
+     "lift": 1.45
+    },
+    "halves": [
+     {
+      "days": 932,
+      "episodes": 11,
+      "hitRate": 0.4571,
+      "meanFwdRet": 0.0033,
+      "lift": 1.28
+     },
+     {
+      "days": 543,
+      "episodes": 15,
+      "hitRate": 0.186,
+      "meanFwdRet": 0.0317,
+      "lift": 1.3
+     }
+    ]
+   }
+  },
+  {
+   "id": "rally50",
+   "split": "2012-01-01",
+   "all": {
+    "days": 767,
+    "episodes": 16,
+    "hitRate": 0.3481,
+    "meanFwdRet": 0.024,
+    "lift": 1.64
+   },
+   "halves": [
+    {
+     "days": 661,
+     "episodes": 13,
+     "hitRate": 0.4039,
+     "meanFwdRet": 0.0189,
+     "lift": 1.19
+    },
+    {
+     "days": 106,
+     "episodes": 3,
+     "hitRate": 0,
+     "meanFwdRet": 0.0561,
+     "lift": 0
+    }
+   ],
+   "baseFwdRet": [
+    0.0445,
+    0.0296
+   ],
+   "turbulence": {
+    "all": {
+     "days": 767,
+     "episodes": 16,
+     "hitRate": 0.3429,
+     "meanFwdRet": 0.0074,
+     "lift": 1.39
+    },
+    "halves": [
+     {
+      "days": 661,
+      "episodes": 13,
+      "hitRate": 0.3873,
+      "meanFwdRet": 0.0065,
+      "lift": 1.08
+     },
+     {
+      "days": 106,
+      "episodes": 3,
+      "hitRate": 0.066,
+      "meanFwdRet": 0.0128,
+      "lift": 0.46
+     }
+    ]
+   }
+  },
+  {
+   "id": "vixComplacent",
+   "split": "2017-07-03",
+   "all": {
+    "days": 386,
+    "episodes": 14,
+    "hitRate": 0.101,
+    "meanFwdRet": 0.0226,
+    "lift": 0.67
+   },
+   "halves": [
+    {
+     "days": 65,
+     "episodes": 3,
+     "hitRate": 0,
+     "meanFwdRet": 0.0457,
+     "lift": 0
+    },
+    {
+     "days": 321,
+     "episodes": 12,
+     "hitRate": 0.1215,
+     "meanFwdRet": 0.018,
+     "lift": 1.22
+    }
+   ],
+   "baseFwdRet": [
+    0.0259,
+    0.0286
+   ],
+   "turbulence": {
+    "all": {
+     "days": 409,
+     "episodes": 14,
+     "hitRate": 0.0562,
+     "meanFwdRet": 0.0057,
+     "lift": 0.28
+    },
+    "halves": [
+     {
+      "days": 65,
+      "episodes": 3,
+      "hitRate": 0.0154,
+      "meanFwdRet": 0.0201,
+      "lift": 0.06
+     },
+     {
+      "days": 344,
+      "episodes": 12,
+      "hitRate": 0.064,
+      "meanFwdRet": 0.003,
+      "lift": 0.46
+     }
+    ]
+   }
+  },
+  {
+   "id": "newLowsSpread",
+   "split": "2012-01-01",
+   "all": {
+    "days": 441,
+    "episodes": 41,
+    "hitRate": 0.2902,
+    "meanFwdRet": 0.0544,
+    "lift": 1.36
+   },
+   "halves": [
+    {
+     "days": 279,
+     "episodes": 22,
+     "hitRate": 0.3907,
+     "meanFwdRet": 0.0513,
+     "lift": 1.15
+    },
+    {
+     "days": 162,
+     "episodes": 19,
+     "hitRate": 0.1173,
+     "meanFwdRet": 0.0598,
+     "lift": 1.26
+    }
+   ],
+   "baseFwdRet": [
+    0.0445,
+    0.0296
+   ],
+   "turbulence": {
+    "all": {
+     "days": 441,
+     "episodes": 41,
+     "hitRate": 0.3855,
+     "meanFwdRet": 0.0167,
+     "lift": 1.57
+    },
+    "halves": [
+     {
+      "days": 279,
+      "episodes": 22,
+      "hitRate": 0.4624,
+      "meanFwdRet": 0.0183,
+      "lift": 1.29
+     },
+     {
+      "days": 162,
+      "episodes": 19,
+      "hitRate": 0.2531,
+      "meanFwdRet": 0.0138,
+      "lift": 1.77
+     }
+    ]
+   }
+  },
+  {
+   "id": "adDivergence",
+   "split": "2012-01-01",
+   "all": {
+    "days": 756,
+    "episodes": 36,
+    "hitRate": 0.2778,
+    "meanFwdRet": -0.0061,
+    "lift": 1.31
+   },
+   "halves": [
+    {
+     "days": 204,
+     "episodes": 14,
+     "hitRate": 0.4706,
+     "meanFwdRet": 0.027,
+     "lift": 1.38
+    },
+    {
+     "days": 552,
+     "episodes": 22,
+     "hitRate": 0.2065,
+     "meanFwdRet": -0.0183,
+     "lift": 2.22
+    }
+   ],
+   "baseFwdRet": [
+    0.0445,
+    0.0296
+   ],
+   "turbulence": {
+    "all": {
+     "days": 756,
+     "episodes": 36,
+     "hitRate": 0.1984,
+     "meanFwdRet": -0.0018,
+     "lift": 0.81
+    },
+    "halves": [
+     {
+      "days": 204,
+      "episodes": 14,
+      "hitRate": 0.3088,
+      "meanFwdRet": 0.0048,
+      "lift": 0.86
+     },
+     {
+      "days": 552,
+      "episodes": 22,
+      "hitRate": 0.1576,
+      "meanFwdRet": -0.0043,
+      "lift": 1.1
+     }
+    ]
+   }
+  },
+  {
+   "id": "dispersionHigh",
+   "split": "2012-01-01",
+   "all": {
+    "days": 384,
+    "episodes": 32,
+    "hitRate": 0.3073,
+    "meanFwdRet": 0.0434,
+    "lift": 1.68
+   },
+   "halves": [
+    {
+     "days": 139,
+     "episodes": 14,
+     "hitRate": 0.5971,
+     "meanFwdRet": -0.0013,
+     "lift": 1.83
+    },
+    {
+     "days": 245,
+     "episodes": 18,
+     "hitRate": 0.1429,
+     "meanFwdRet": 0.0688,
+     "lift": 1.52
+    }
+   ],
+   "baseFwdRet": [
+    0.0471,
+    0.0298
+   ],
+   "turbulence": {
+    "all": {
+     "days": 384,
+     "episodes": 32,
+     "hitRate": 0.349,
+     "meanFwdRet": 0.0021,
+     "lift": 1.6
+    },
+    "halves": [
+     {
+      "days": 139,
+      "episodes": 14,
+      "hitRate": 0.4173,
+      "meanFwdRet": 0.0136,
+      "lift": 1.24
+     },
+     {
+      "days": 245,
+      "episodes": 18,
+      "hitRate": 0.3102,
+      "meanFwdRet": -0.0045,
+      "lift": 2.12
+     }
+    ]
+   }
+  },
+  {
+   "id": "defensiveRotation",
+   "split": "2012-01-01",
+   "all": {
+    "days": 1455,
+    "episodes": 29,
+    "hitRate": 0.2935,
+    "meanFwdRet": 0.0324,
+    "lift": 1.4
+   },
+   "halves": [
+    {
+     "days": 706,
+     "episodes": 16,
+     "hitRate": 0.4773,
+     "meanFwdRet": 0.0268,
+     "lift": 1.41
+    },
+    {
+     "days": 749,
+     "episodes": 14,
+     "hitRate": 0.1202,
+     "meanFwdRet": 0.0377,
+     "lift": 1.29
+    }
+   ],
+   "baseFwdRet": [
+    0.0447,
+    0.0296
+   ],
+   "turbulence": {
+    "all": {
+     "days": 1457,
+     "episodes": 30,
+     "hitRate": 0.3651,
+     "meanFwdRet": 0.0038,
+     "lift": 1.5
+    },
+    "halves": [
+     {
+      "days": 706,
+      "episodes": 16,
+      "hitRate": 0.5057,
+      "meanFwdRet": -0.0005,
+      "lift": 1.41
+     },
+     {
+      "days": 751,
+      "episodes": 15,
+      "hitRate": 0.233,
+      "meanFwdRet": 0.0078,
+      "lift": 1.64
+     }
+    ]
+   }
+  },
+  {
+   "id": "curveResteepen",
+   "split": "2012-01-01",
+   "all": {
+    "days": 1307,
+    "episodes": 8,
+    "hitRate": 0.3443,
+    "meanFwdRet": 0.0035,
+    "lift": 1.62
+   },
+   "halves": [
+    {
+     "days": 571,
+     "episodes": 5,
+     "hitRate": 0.5674,
+     "meanFwdRet": -0.0236,
+     "lift": 1.66
+    },
+    {
+     "days": 736,
+     "episodes": 3,
+     "hitRate": 0.1712,
+     "meanFwdRet": 0.0245,
+     "lift": 1.84
+    }
+   ],
+   "baseFwdRet": [
+    0.0445,
+    0.0295
+   ],
+   "turbulence": {
+    "all": {
+     "days": 1307,
+     "episodes": 8,
+     "hitRate": 0.3015,
+     "meanFwdRet": 0.004,
+     "lift": 1.23
+    },
+    "halves": [
+     {
+      "days": 571,
+      "episodes": 5,
+      "hitRate": 0.4658,
+      "meanFwdRet": -0.003,
+      "lift": 1.3
+     },
+     {
+      "days": 736,
+      "episodes": 3,
+      "hitRate": 0.1739,
+      "meanFwdRet": 0.0094,
+      "lift": 1.22
+     }
+    ]
+   }
+  },
+  {
+   "id": "volatilityHigh",
+   "split": "2012-01-01",
+   "all": {
+    "days": 767,
+    "episodes": 21,
+    "hitRate": 0.4316,
+    "meanFwdRet": 0.056,
+    "lift": 2.04
+   },
+   "halves": [
+    {
+     "days": 649,
+     "episodes": 14,
+     "hitRate": 0.4884,
+     "meanFwdRet": 0.0473,
+     "lift": 1.44
+    },
+    {
+     "days": 118,
+     "episodes": 7,
+     "hitRate": 0.1186,
+     "meanFwdRet": 0.1037,
+     "lift": 1.27
+    }
+   ],
+   "baseFwdRet": [
+    0.0449,
+    0.0296
+   ],
+   "turbulence": {
+    "all": {
+     "days": 767,
+     "episodes": 21,
+     "hitRate": 0.4407,
+     "meanFwdRet": 0.0205,
+     "lift": 1.8
+    },
+    "halves": [
+     {
+      "days": 649,
+      "episodes": 14,
+      "hitRate": 0.4807,
+      "meanFwdRet": 0.0162,
+      "lift": 1.35
+     },
+     {
+      "days": 118,
+      "episodes": 7,
+      "hitRate": 0.2203,
+      "meanFwdRet": 0.0445,
+      "lift": 1.54
+     }
+    ]
+   }
+  },
+  {
+   "id": "spxMonthDown",
+   "split": "2012-01-01",
+   "all": {
+    "days": 705,
+    "episodes": 56,
+    "hitRate": 0.3149,
+    "meanFwdRet": 0.0356,
+    "lift": 1.48
+   },
+   "halves": [
+    {
+     "days": 458,
+     "episodes": 33,
+     "hitRate": 0.4498,
+     "meanFwdRet": 0.0218,
+     "lift": 1.32
+    },
+    {
+     "days": 247,
+     "episodes": 23,
+     "hitRate": 0.0648,
+     "meanFwdRet": 0.0611,
+     "lift": 0.7
+    }
+   ],
+   "baseFwdRet": [
+    0.0445,
+    0.0296
+   ],
+   "turbulence": {
+    "all": {
+     "days": 705,
+     "episodes": 56,
+     "hitRate": 0.4085,
+     "meanFwdRet": 0.0107,
+     "lift": 1.66
+    },
+    "halves": [
+     {
+      "days": 458,
+      "episodes": 33,
+      "hitRate": 0.4956,
+      "meanFwdRet": 0.0051,
+      "lift": 1.38
+     },
+     {
+      "days": 247,
+      "episodes": 23,
+      "hitRate": 0.247,
+      "meanFwdRet": 0.0211,
+      "lift": 1.73
+     }
+    ]
+   }
+  },
+  {
+   "id": "vrpLow",
+   "split": "2018-01-01",
+   "all": {
+    "days": 824,
+    "episodes": 43,
+    "hitRate": 0.1117,
+    "meanFwdRet": 0.0273,
+    "lift": 0.97
+   },
+   "halves": [
+    {
+     "days": 312,
+     "episodes": 19,
+     "hitRate": 0.1026,
+     "meanFwdRet": 0.03,
+     "lift": 0.83
+    },
+    {
+     "days": 512,
+     "episodes": 24,
+     "hitRate": 0.1172,
+     "meanFwdRet": 0.0256,
+     "lift": 1.11
+    }
+   ],
+   "baseFwdRet": [
+    0.0333,
+    0.0281
+   ],
+   "turbulence": {
+    "all": {
+     "days": 838,
+     "episodes": 43,
+     "hitRate": 0.1945,
+     "meanFwdRet": 0.0062,
+     "lift": 1.12
+    },
+    "halves": [
+     {
+      "days": 312,
+      "episodes": 19,
+      "hitRate": 0.1987,
+      "meanFwdRet": 0.0093,
+      "lift": 1
+     },
+     {
+      "days": 526,
+      "episodes": 24,
+      "hitRate": 0.192,
+      "meanFwdRet": 0.0043,
+      "lift": 1.3
+     }
+    ]
+   }
+  },
+  {
+   "id": "vrpHigh",
+   "split": "2018-01-01",
+   "all": {
+    "days": 317,
+    "episodes": 28,
+    "hitRate": 0.0568,
+    "meanFwdRet": 0.089,
+    "lift": 0.49
+   },
+   "halves": [
+    {
+     "days": 141,
+     "episodes": 13,
+     "hitRate": 0.0355,
+     "meanFwdRet": 0.1154,
+     "lift": 0.29
+    },
+    {
+     "days": 176,
+     "episodes": 15,
+     "hitRate": 0.0739,
+     "meanFwdRet": 0.0678,
+     "lift": 0.7
+    }
+   ],
+   "baseFwdRet": [
+    0.0333,
+    0.0281
+   ],
+   "turbulence": {
+    "all": {
+     "days": 317,
+     "episodes": 28,
+     "hitRate": 0.2177,
+     "meanFwdRet": 0.0555,
+     "lift": 1.26
+    },
+    "halves": [
+     {
+      "days": 141,
+      "episodes": 13,
+      "hitRate": 0.2057,
+      "meanFwdRet": 0.0838,
+      "lift": 1.04
+     },
+     {
+      "days": 176,
+      "episodes": 15,
+      "hitRate": 0.2273,
+      "meanFwdRet": 0.0328,
+      "lift": 1.54
+     }
+    ]
+   }
+  }
+ ],
+ "drawdowns": [
+  {
+   "peak": "1998-01-05",
+   "trough": "1998-01-28",
+   "depthPct": -14.2,
+   "fallDays": 16,
+   "recovered": "1998-03-02"
+  },
+  {
+   "peak": "1998-04-21",
+   "trough": "1998-10-20",
+   "depthPct": -35.4,
+   "fallDays": 124,
+   "recovered": "1999-07-05"
+  },
+  {
+   "peak": "1999-10-14",
+   "trough": "1999-11-01",
+   "depthPct": -15.9,
+   "fallDays": 11,
+   "recovered": "2000-01-03"
+  },
+  {
+   "peak": "2000-02-11",
+   "trough": "2001-09-21",
+   "depthPct": -56.2,
+   "fallDays": 402,
+   "recovered": "2004-01-02"
+  },
+  {
+   "peak": "2004-01-14",
+   "trough": "2004-05-17",
+   "depthPct": -27.3,
+   "fallDays": 82,
+   "recovered": "2004-11-30"
+  },
+  {
+   "peak": "2005-03-08",
+   "trough": "2005-04-19",
+   "depthPct": -11.3,
+   "fallDays": 28,
+   "recovered": "2005-06-20"
+  },
+  {
+   "peak": "2005-10-04",
+   "trough": "2005-10-28",
+   "depthPct": -12.7,
+   "fallDays": 17,
+   "recovered": "2005-11-25"
+  },
+  {
+   "peak": "2006-05-10",
+   "trough": "2006-06-14",
+   "depthPct": -29.2,
+   "fallDays": 25,
+   "recovered": "2006-10-13"
+  },
+  {
+   "peak": "2007-02-08",
+   "trough": "2007-03-05",
+   "depthPct": -15.3,
+   "fallDays": 16,
+   "recovered": "2007-07-02"
+  },
+  {
+   "peak": "2007-07-24",
+   "trough": "2007-08-21",
+   "depthPct": -11.4,
+   "fallDays": 19,
+   "recovered": "2007-09-19"
+  },
+  {
+   "peak": "2008-01-08",
+   "trough": "2009-03-09",
+   "depthPct": -60.9,
+   "fallDays": 283,
+   "recovered": "2010-11-04"
+  },
+  {
+   "peak": "2010-11-09",
+   "trough": "2011-12-20",
+   "depthPct": -27.5,
+   "fallDays": 274,
+   "recovered": "2013-10-30"
+  },
+  {
+   "peak": "2015-01-29",
+   "trough": "2016-02-11",
+   "depthPct": -22.7,
+   "fallDays": 254,
+   "recovered": "2017-04-03"
+  },
+  {
+   "peak": "2018-01-29",
+   "trough": "2018-03-23",
+   "depthPct": -10.2,
+   "fallDays": 37,
+   "recovered": "2018-07-12"
+  },
+  {
+   "peak": "2018-08-28",
+   "trough": "2018-10-26",
+   "depthPct": -14.3,
+   "fallDays": 39,
+   "recovered": "2019-04-02"
+  },
+  {
+   "peak": "2019-06-03",
+   "trough": "2019-09-19",
+   "depthPct": -10.4,
+   "fallDays": 73,
+   "recovered": "2019-11-04"
+  },
+  {
+   "peak": "2020-01-14",
+   "trough": "2020-03-23",
+   "depthPct": -38.1,
+   "fallDays": 47,
+   "recovered": "2020-11-09"
+  },
+  {
+   "peak": "2021-10-18",
+   "trough": "2022-06-17",
+   "depthPct": -16.8,
+   "fallDays": 166,
+   "recovered": "2022-11-11"
+  },
+  {
+   "peak": "2024-09-26",
+   "trough": "2026-10-08",
+   "depthPct": -16.6,
+   "fallDays": 501,
+   "recovered": null
+  }
+ ],
+ "rules": [
+  {
+   "id": "buyHold",
+   "label": "Buy and hold",
+   "all": {
+    "cagr": 0.1202,
+    "maxDD": -0.6091,
+    "avgExposure": 1,
+    "matchedCagr": 0.1202,
+    "matchedMaxDD": -0.6091,
+    "edgePp": 0
+   },
+   "halves": [
+    {
+     "cagr": 0.1315,
+     "maxDD": -0.6091,
+     "avgExposure": 1,
+     "matchedCagr": 0.1315,
+     "matchedMaxDD": -0.6091,
+     "edgePp": 0
+    },
+    {
+     "cagr": 0.1099,
+     "maxDD": -0.3807,
+     "avgExposure": 1,
+     "matchedCagr": 0.1099,
+     "matchedMaxDD": -0.3807,
+     "edgePp": 0
+    }
+   ]
+  },
+  {
+   "id": "trend200Out",
+   "label": "All out below the 200-day (2% band)",
+   "all": {
+    "cagr": 0.1093,
+    "maxDD": -0.4227,
+    "avgExposure": 0.6933,
+    "matchedCagr": 0.1075,
+    "matchedMaxDD": -0.4545,
+    "edgePp": 0.18
+   },
+   "halves": [
+    {
+     "cagr": 0.1472,
+     "maxDD": -0.4227,
+     "avgExposure": 0.6116,
+     "matchedCagr": 0.1133,
+     "matchedMaxDD": -0.4061,
+     "edgePp": 3.38
+    },
+    {
+     "cagr": 0.0755,
+     "maxDD": -0.18,
+     "avgExposure": 0.7681,
+     "matchedCagr": 0.101,
+     "matchedMaxDD": -0.303,
+     "edgePp": -2.54
+    }
+   ]
+  },
+  {
+   "id": "trend200Half",
+   "label": "Hold 50% below the 200-day (2% band)",
+   "all": {
+    "cagr": 0.1181,
+    "maxDD": -0.454,
+    "avgExposure": 0.8466,
+    "matchedCagr": 0.1145,
+    "matchedMaxDD": -0.5369,
+    "edgePp": 0.36
+   },
+   "halves": [
+    {
+     "cagr": 0.1445,
+     "maxDD": -0.454,
+     "avgExposure": 0.8058,
+     "matchedCagr": 0.1239,
+     "matchedMaxDD": -0.516,
+     "edgePp": 2.06
+    },
+    {
+     "cagr": 0.0943,
+     "maxDD": -0.2431,
+     "avgExposure": 0.8841,
+     "matchedCagr": 0.1056,
+     "matchedMaxDD": -0.3427,
+     "edgePp": -1.14
+    }
+   ]
+  },
+  {
+   "id": "spxHalf",
+   "label": "Hold 50% while the S&P 500 is below its 200-day",
+   "all": {
+    "cagr": 0.1307,
+    "maxDD": -0.4185,
+    "avgExposure": 0.8649,
+    "matchedCagr": 0.1152,
+    "matchedMaxDD": -0.5461,
+    "edgePp": 1.55
+   },
+   "halves": [
+    {
+     "cagr": 0.1607,
+     "maxDD": -0.4185,
+     "avgExposure": 0.7995,
+     "matchedCagr": 0.1236,
+     "matchedMaxDD": -0.5127,
+     "edgePp": 3.71
+    },
+    {
+     "cagr": 0.1039,
+     "maxDD": -0.2572,
+     "avgExposure": 0.9249,
+     "matchedCagr": 0.1072,
+     "matchedMaxDD": -0.3563,
+     "edgePp": -0.33
+    }
+   ]
+  },
+  {
+   "id": "breadthHalf",
+   "label": "Hold 50% for 63 days after a breadth divergence",
+   "all": {
+    "cagr": 0.1369,
+    "maxDD": -0.6091,
+    "avgExposure": 0.9341,
+    "matchedCagr": 0.1179,
+    "matchedMaxDD": -0.5793,
+    "edgePp": 1.91
+   },
+   "halves": [
+    {
+     "cagr": 0.1481,
+     "maxDD": -0.6091,
+     "avgExposure": 0.9904,
+     "matchedCagr": 0.1312,
+     "matchedMaxDD": -0.6048,
+     "edgePp": 1.7
+    },
+    {
+     "cagr": 0.1268,
+     "maxDD": -0.2267,
+     "avgExposure": 0.8825,
+     "matchedCagr": 0.1056,
+     "matchedMaxDD": -0.3422,
+     "edgePp": 2.12
+    }
+   ]
+  },
+  {
+   "id": "newLowsHalf",
+   "label": "Hold 50% for 63 days after 10%+ of stocks hit 52-week lows",
+   "all": {
+    "cagr": 0.1207,
+    "maxDD": -0.4064,
+    "avgExposure": 0.7845,
+    "matchedCagr": 0.1118,
+    "matchedMaxDD": -0.5048,
+    "edgePp": 0.9
+   },
+   "halves": [
+    {
+     "cagr": 0.1375,
+     "maxDD": -0.4064,
+     "avgExposure": 0.7541,
+     "matchedCagr": 0.1214,
+     "matchedMaxDD": -0.4885,
+     "edgePp": 1.61
+    },
+    {
+     "cagr": 0.1086,
+     "maxDD": -0.2272,
+     "avgExposure": 0.8208,
+     "matchedCagr": 0.1031,
+     "matchedMaxDD": -0.3212,
+     "edgePp": 0.55
+    }
+   ]
+  },
+  {
+   "id": "curveHalf",
+   "label": "Hold 50% for 63 days after the US curve re-steepens",
+   "all": {
+    "cagr": 0.1368,
+    "maxDD": -0.4131,
+    "avgExposure": 0.8696,
+    "matchedCagr": 0.1154,
+    "matchedMaxDD": -0.5484,
+    "edgePp": 2.14
+   },
+   "halves": [
+    {
+     "cagr": 0.1691,
+     "maxDD": -0.4131,
+     "avgExposure": 0.8724,
+     "matchedCagr": 0.1269,
+     "matchedMaxDD": -0.5498,
+     "edgePp": 4.22
+    },
+    {
+     "cagr": 0.1081,
+     "maxDD": -0.2267,
+     "avgExposure": 0.867,
+     "matchedCagr": 0.105,
+     "matchedMaxDD": -0.337,
+     "edgePp": 0.31
+    }
+   ]
+  },
+  {
+   "id": "composite",
+   "label": "Hold 50% when 2+ of: below 200-day, S&P below 200-day, VIX > 25, breadth < 35%",
+   "all": {
+    "cagr": 0.0995,
+    "maxDD": -0.4545,
+    "avgExposure": 0.8691,
+    "matchedCagr": 0.1154,
+    "matchedMaxDD": -0.5481,
+    "edgePp": -1.59
+   },
+   "halves": [
+    {
+     "cagr": 0.1276,
+     "maxDD": -0.4545,
+     "avgExposure": 0.8154,
+     "matchedCagr": 0.1244,
+     "matchedMaxDD": -0.521,
+     "edgePp": 0.33
+    },
+    {
+     "cagr": 0.0742,
+     "maxDD": -0.2862,
+     "avgExposure": 0.9183,
+     "matchedCagr": 0.1069,
+     "matchedMaxDD": -0.3541,
+     "edgePp": -3.27
+    }
+   ]
+  }
+ ],
+ "sectorFallsFrom": "2003-01-01",
+ "sectors": [
+  {
+   "sector": "Gold (GOLDBEES)",
+   "members": 1,
+   "inFall": {
+    "meanPp": 39.1,
+    "beat": 8,
+    "n": 8
+   },
+   "rebound": {
+    "meanPp": -6.9,
+    "beat": 1,
+    "n": 7
+   },
+   "downBeta": -0.07,
+   "upBeta": 0.03,
+   "episodes": [
+    {
+     "peak": "2004-01-14",
+     "trough": "2004-05-17",
+     "marketPct": -27.3,
+     "relInFallPp": null,
+     "relReboundPp": null
+    },
+    {
+     "peak": "2005-03-08",
+     "trough": "2005-04-19",
+     "marketPct": -11.3,
+     "relInFallPp": null,
+     "relReboundPp": null
+    },
+    {
+     "peak": "2005-10-04",
+     "trough": "2005-10-28",
+     "marketPct": -12.7,
+     "relInFallPp": null,
+     "relReboundPp": null
+    },
+    {
+     "peak": "2006-05-10",
+     "trough": "2006-06-14",
+     "marketPct": -29.2,
+     "relInFallPp": null,
+     "relReboundPp": null
+    },
+    {
+     "peak": "2007-02-08",
+     "trough": "2007-03-05",
+     "marketPct": -15.3,
+     "relInFallPp": null,
+     "relReboundPp": null
+    },
+    {
+     "peak": "2007-07-24",
+     "trough": "2007-08-21",
+     "marketPct": -11.4,
+     "relInFallPp": null,
+     "relReboundPp": null
+    },
+    {
+     "peak": "2008-01-08",
+     "trough": "2009-03-09",
+     "marketPct": -60.9,
+     "relInFallPp": null,
+     "relReboundPp": null
+    },
+    {
+     "peak": "2010-11-09",
+     "trough": "2011-12-20",
+     "marketPct": -27.5,
+     "relInFallPp": 61,
+     "relReboundPp": -5
+    },
+    {
+     "peak": "2015-01-29",
+     "trough": "2016-02-11",
+     "marketPct": -22.7,
+     "relInFallPp": 23.2,
+     "relReboundPp": -12.3
+    },
+    {
+     "peak": "2018-01-29",
+     "trough": "2018-03-23",
+     "marketPct": -10.2,
+     "relInFallPp": 11.6,
+     "relReboundPp": -12.9
+    },
+    {
+     "peak": "2018-08-28",
+     "trough": "2018-10-26",
+     "marketPct": -14.3,
+     "relInFallPp": 20.1,
+     "relReboundPp": -15.8
+    },
+    {
+     "peak": "2019-06-03",
+     "trough": "2019-09-19",
+     "marketPct": -10.4,
+     "relInFallPp": 25.3,
+     "relReboundPp": 31
+    },
+    {
+     "peak": "2020-01-14",
+     "trough": "2020-03-23",
+     "marketPct": -38.1,
+     "relInFallPp": 38.8,
+     "relReboundPp": -19.4
+    },
+    {
+     "peak": "2021-10-18",
+     "trough": "2022-06-17",
+     "marketPct": -16.8,
+     "relInFallPp": 24.4,
+     "relReboundPp": -14.1
+    },
+    {
+     "peak": "2024-09-26",
+     "trough": "2026-10-08",
+     "marketPct": -16.6,
+     "relInFallPp": 108.2,
+     "relReboundPp": null
+    }
+   ]
+  },
+  {
+   "sector": "Healthcare",
+   "members": 44,
+   "inFall": {
+    "meanPp": 10.7,
+    "beat": 14,
+    "n": 15
+   },
+   "rebound": {
+    "meanPp": -2.7,
+    "beat": 3,
+    "n": 14
+   },
+   "downBeta": 0.6,
+   "upBeta": 0.56,
+   "episodes": [
+    {
+     "peak": "2004-01-14",
+     "trough": "2004-05-17",
+     "marketPct": -27.3,
+     "relInFallPp": 14.3,
+     "relReboundPp": -0.4
+    },
+    {
+     "peak": "2005-03-08",
+     "trough": "2005-04-19",
+     "marketPct": -11.3,
+     "relInFallPp": 4.2,
+     "relReboundPp": -3.5
+    },
+    {
+     "peak": "2005-10-04",
+     "trough": "2005-10-28",
+     "marketPct": -12.7,
+     "relInFallPp": 1.4,
+     "relReboundPp": -22.2
+    },
+    {
+     "peak": "2006-05-10",
+     "trough": "2006-06-14",
+     "marketPct": -29.2,
+     "relInFallPp": 0.2,
+     "relReboundPp": -10.7
+    },
+    {
+     "peak": "2007-02-08",
+     "trough": "2007-03-05",
+     "marketPct": -15.3,
+     "relInFallPp": 5.2,
+     "relReboundPp": -12.3
+    },
+    {
+     "peak": "2007-07-24",
+     "trough": "2007-08-21",
+     "marketPct": -11.4,
+     "relInFallPp": 0.5,
+     "relReboundPp": -30.2
+    },
+    {
+     "peak": "2008-01-08",
+     "trough": "2009-03-09",
+     "marketPct": -60.9,
+     "relInFallPp": 18.1,
+     "relReboundPp": -12.2
+    },
+    {
+     "peak": "2010-11-09",
+     "trough": "2011-12-20",
+     "marketPct": -27.5,
+     "relInFallPp": 8.6,
+     "relReboundPp": 20.5
+    },
+    {
+     "peak": "2015-01-29",
+     "trough": "2016-02-11",
+     "marketPct": -22.7,
+     "relInFallPp": 39.4,
+     "relReboundPp": -4
+    },
+    {
+     "peak": "2018-01-29",
+     "trough": "2018-03-23",
+     "marketPct": -10.2,
+     "relInFallPp": 0.6,
+     "relReboundPp": -2.1
+    },
+    {
+     "peak": "2018-08-28",
+     "trough": "2018-10-26",
+     "marketPct": -14.3,
+     "relInFallPp": 3.3,
+     "relReboundPp": -10.5
+    },
+    {
+     "peak": "2019-06-03",
+     "trough": "2019-09-19",
+     "marketPct": -10.4,
+     "relInFallPp": 7.9,
+     "relReboundPp": 8.1
+    },
+    {
+     "peak": "2020-01-14",
+     "trough": "2020-03-23",
+     "marketPct": -38.1,
+     "relInFallPp": 18.6,
+     "relReboundPp": 50.6
+    },
+    {
+     "peak": "2021-10-18",
+     "trough": "2022-06-17",
+     "marketPct": -16.8,
+     "relInFallPp": -2.9,
+     "relReboundPp": -8.4
+    },
+    {
+     "peak": "2024-09-26",
+     "trough": "2026-10-08",
+     "marketPct": -16.6,
+     "relInFallPp": 41.1,
+     "relReboundPp": null
+    }
+   ]
+  },
+  {
+   "sector": "Fast Moving Consumer Goods",
+   "members": 28,
+   "inFall": {
+    "meanPp": 9.1,
+    "beat": 13,
+    "n": 15
+   },
+   "rebound": {
+    "meanPp": -0.1,
+    "beat": 7,
+    "n": 14
+   },
+   "downBeta": 0.66,
+   "upBeta": 0.63,
+   "episodes": [
+    {
+     "peak": "2004-01-14",
+     "trough": "2004-05-17",
+     "marketPct": -27.3,
+     "relInFallPp": 8.4,
+     "relReboundPp": 19.8
+    },
+    {
+     "peak": "2005-03-08",
+     "trough": "2005-04-19",
+     "marketPct": -11.3,
+     "relInFallPp": 12.7,
+     "relReboundPp": 12.3
+    },
+    {
+     "peak": "2005-10-04",
+     "trough": "2005-10-28",
+     "marketPct": -12.7,
+     "relInFallPp": 3.6,
+     "relReboundPp": -3.4
+    },
+    {
+     "peak": "2006-05-10",
+     "trough": "2006-06-14",
+     "marketPct": -29.2,
+     "relInFallPp": 0,
+     "relReboundPp": -31
+    },
+    {
+     "peak": "2007-02-08",
+     "trough": "2007-03-05",
+     "marketPct": -15.3,
+     "relInFallPp": 4.6,
+     "relReboundPp": -8.1
+    },
+    {
+     "peak": "2007-07-24",
+     "trough": "2007-08-21",
+     "marketPct": -11.4,
+     "relInFallPp": 6.3,
+     "relReboundPp": -8.5
+    },
+    {
+     "peak": "2008-01-08",
+     "trough": "2009-03-09",
+     "marketPct": -60.9,
+     "relInFallPp": 16.2,
+     "relReboundPp": -11.2
+    },
+    {
+     "peak": "2010-11-09",
+     "trough": "2011-12-20",
+     "marketPct": -27.5,
+     "relInFallPp": 14.1,
+     "relReboundPp": 8.2
+    },
+    {
+     "peak": "2015-01-29",
+     "trough": "2016-02-11",
+     "marketPct": -22.7,
+     "relInFallPp": 25.5,
+     "relReboundPp": 5.6
+    },
+    {
+     "peak": "2018-01-29",
+     "trough": "2018-03-23",
+     "marketPct": -10.2,
+     "relInFallPp": 2.4,
+     "relReboundPp": -12.4
+    },
+    {
+     "peak": "2018-08-28",
+     "trough": "2018-10-26",
+     "marketPct": -14.3,
+     "relInFallPp": -0.6,
+     "relReboundPp": -5.3
+    },
+    {
+     "peak": "2019-06-03",
+     "trough": "2019-09-19",
+     "marketPct": -10.4,
+     "relInFallPp": 8.7,
+     "relReboundPp": 7.1
+    },
+    {
+     "peak": "2020-01-14",
+     "trough": "2020-03-23",
+     "marketPct": -38.1,
+     "relInFallPp": 11,
+     "relReboundPp": 19.8
+    },
+    {
+     "peak": "2021-10-18",
+     "trough": "2022-06-17",
+     "marketPct": -16.8,
+     "relInFallPp": 8.1,
+     "relReboundPp": 6.2
+    },
+    {
+     "peak": "2024-09-26",
+     "trough": "2026-10-08",
+     "marketPct": -16.6,
+     "relInFallPp": 15.5,
+     "relReboundPp": null
+    }
+   ]
+  },
+  {
+   "sector": "Textiles",
+   "members": 5,
+   "inFall": {
+    "meanPp": 5.5,
+    "beat": 5,
+    "n": 15
+   },
+   "rebound": {
+    "meanPp": 2.5,
+    "beat": 5,
+    "n": 14
+   },
+   "downBeta": 0.83,
+   "upBeta": 0.71,
+   "episodes": [
+    {
+     "peak": "2004-01-14",
+     "trough": "2004-05-17",
+     "marketPct": -27.3,
+     "relInFallPp": -3.2,
+     "relReboundPp": 78.2
+    },
+    {
+     "peak": "2005-03-08",
+     "trough": "2005-04-19",
+     "marketPct": -11.3,
+     "relInFallPp": 4.2,
+     "relReboundPp": -11.9
+    },
+    {
+     "peak": "2005-10-04",
+     "trough": "2005-10-28",
+     "marketPct": -12.7,
+     "relInFallPp": -4.1,
+     "relReboundPp": -48.6
+    },
+    {
+     "peak": "2006-05-10",
+     "trough": "2006-06-14",
+     "marketPct": -29.2,
+     "relInFallPp": -6.9,
+     "relReboundPp": -35.4
+    },
+    {
+     "peak": "2007-02-08",
+     "trough": "2007-03-05",
+     "marketPct": -15.3,
+     "relInFallPp": -1.6,
+     "relReboundPp": -26.5
+    },
+    {
+     "peak": "2007-07-24",
+     "trough": "2007-08-21",
+     "marketPct": -11.4,
+     "relInFallPp": 4.9,
+     "relReboundPp": -20.5
+    },
+    {
+     "peak": "2008-01-08",
+     "trough": "2009-03-09",
+     "marketPct": -60.9,
+     "relInFallPp": -13.5,
+     "relReboundPp": 100
+    },
+    {
+     "peak": "2010-11-09",
+     "trough": "2011-12-20",
+     "marketPct": -27.5,
+     "relInFallPp": -14.8,
+     "relReboundPp": 16.7
+    },
+    {
+     "peak": "2015-01-29",
+     "trough": "2016-02-11",
+     "marketPct": -22.7,
+     "relInFallPp": 98.2,
+     "relReboundPp": 12.7
+    },
+    {
+     "peak": "2018-01-29",
+     "trough": "2018-03-23",
+     "marketPct": -10.2,
+     "relInFallPp": -4.4,
+     "relReboundPp": -2
+    },
+    {
+     "peak": "2018-08-28",
+     "trough": "2018-10-26",
+     "marketPct": -14.3,
+     "relInFallPp": 3.2,
+     "relReboundPp": -16
+    },
+    {
+     "peak": "2019-06-03",
+     "trough": "2019-09-19",
+     "marketPct": -10.4,
+     "relInFallPp": -0.4,
+     "relReboundPp": -18.9
+    },
+    {
+     "peak": "2020-01-14",
+     "trough": "2020-03-23",
+     "marketPct": -38.1,
+     "relInFallPp": -4.7,
+     "relReboundPp": 21
+    },
+    {
+     "peak": "2021-10-18",
+     "trough": "2022-06-17",
+     "marketPct": -16.8,
+     "relInFallPp": -0.7,
+     "relReboundPp": -13.2
+    },
+    {
+     "peak": "2024-09-26",
+     "trough": "2026-10-08",
+     "marketPct": -16.6,
+     "relInFallPp": 26.3,
+     "relReboundPp": null
+    }
+   ]
+  },
+  {
+   "sector": "Oil Gas & Consumable Fuels",
+   "members": 19,
+   "inFall": {
+    "meanPp": 4.9,
+    "beat": 12,
+    "n": 15
+   },
+   "rebound": {
+    "meanPp": -5.5,
+    "beat": 4,
+    "n": 14
+   },
+   "downBeta": 0.85,
+   "upBeta": 0.76,
+   "episodes": [
+    {
+     "peak": "2004-01-14",
+     "trough": "2004-05-17",
+     "marketPct": -27.3,
+     "relInFallPp": 0.8,
+     "relReboundPp": 18.2
+    },
+    {
+     "peak": "2005-03-08",
+     "trough": "2005-04-19",
+     "marketPct": -11.3,
+     "relInFallPp": 2.5,
+     "relReboundPp": -4.4
+    },
+    {
+     "peak": "2005-10-04",
+     "trough": "2005-10-28",
+     "marketPct": -12.7,
+     "relInFallPp": 3.1,
+     "relReboundPp": -30.1
+    },
+    {
+     "peak": "2006-05-10",
+     "trough": "2006-06-14",
+     "marketPct": -29.2,
+     "relInFallPp": -6.1,
+     "relReboundPp": -25.4
+    },
+    {
+     "peak": "2007-02-08",
+     "trough": "2007-03-05",
+     "marketPct": -15.3,
+     "relInFallPp": 1.8,
+     "relReboundPp": 1.8
+    },
+    {
+     "peak": "2007-07-24",
+     "trough": "2007-08-21",
+     "marketPct": -11.4,
+     "relInFallPp": 6.3,
+     "relReboundPp": 21.6
+    },
+    {
+     "peak": "2008-01-08",
+     "trough": "2009-03-09",
+     "marketPct": -60.9,
+     "relInFallPp": 9.6,
+     "relReboundPp": -6.3
+    },
+    {
+     "peak": "2010-11-09",
+     "trough": "2011-12-20",
+     "marketPct": -27.5,
+     "relInFallPp": 1.7,
+     "relReboundPp": -8
+    },
+    {
+     "peak": "2015-01-29",
+     "trough": "2016-02-11",
+     "marketPct": -22.7,
+     "relInFallPp": 30,
+     "relReboundPp": 11.4
+    },
+    {
+     "peak": "2018-01-29",
+     "trough": "2018-03-23",
+     "marketPct": -10.2,
+     "relInFallPp": 1.2,
+     "relReboundPp": -19.3
+    },
+    {
+     "peak": "2018-08-28",
+     "trough": "2018-10-26",
+     "marketPct": -14.3,
+     "relInFallPp": 5.6,
+     "relReboundPp": -1.5
+    },
+    {
+     "peak": "2019-06-03",
+     "trough": "2019-09-19",
+     "marketPct": -10.4,
+     "relInFallPp": -6.8,
+     "relReboundPp": -15.6
+    },
+    {
+     "peak": "2020-01-14",
+     "trough": "2020-03-23",
+     "marketPct": -38.1,
+     "relInFallPp": -2.1,
+     "relReboundPp": -12.1
+    },
+    {
+     "peak": "2021-10-18",
+     "trough": "2022-06-17",
+     "marketPct": -16.8,
+     "relInFallPp": 14.7,
+     "relReboundPp": -7.7
+    },
+    {
+     "peak": "2024-09-26",
+     "trough": "2026-10-08",
+     "marketPct": -16.6,
+     "relInFallPp": 10.7,
+     "relReboundPp": null
+    }
+   ]
+  },
+  {
+   "sector": "Consumer Durables",
+   "members": 16,
+   "inFall": {
+    "meanPp": 4.6,
+    "beat": 11,
+    "n": 15
+   },
+   "rebound": {
+    "meanPp": 7.3,
+    "beat": 10,
+    "n": 14
+   },
+   "downBeta": 0.79,
+   "upBeta": 0.75,
+   "episodes": [
+    {
+     "peak": "2004-01-14",
+     "trough": "2004-05-17",
+     "marketPct": -27.3,
+     "relInFallPp": 9.3,
+     "relReboundPp": 21.7
+    },
+    {
+     "peak": "2005-03-08",
+     "trough": "2005-04-19",
+     "marketPct": -11.3,
+     "relInFallPp": 11.2,
+     "relReboundPp": 32.4
+    },
+    {
+     "peak": "2005-10-04",
+     "trough": "2005-10-28",
+     "marketPct": -12.7,
+     "relInFallPp": 6.4,
+     "relReboundPp": 7.1
+    },
+    {
+     "peak": "2006-05-10",
+     "trough": "2006-06-14",
+     "marketPct": -29.2,
+     "relInFallPp": 2.7,
+     "relReboundPp": -16.2
+    },
+    {
+     "peak": "2007-02-08",
+     "trough": "2007-03-05",
+     "marketPct": -15.3,
+     "relInFallPp": -2.6,
+     "relReboundPp": 9.2
+    },
+    {
+     "peak": "2007-07-24",
+     "trough": "2007-08-21",
+     "marketPct": -11.4,
+     "relInFallPp": 7.3,
+     "relReboundPp": -8.2
+    },
+    {
+     "peak": "2008-01-08",
+     "trough": "2009-03-09",
+     "marketPct": -60.9,
+     "relInFallPp": 3.7,
+     "relReboundPp": 7.3
+    },
+    {
+     "peak": "2010-11-09",
+     "trough": "2011-12-20",
+     "marketPct": -27.5,
+     "relInFallPp": 2.6,
+     "relReboundPp": 25.2
+    },
+    {
+     "peak": "2015-01-29",
+     "trough": "2016-02-11",
+     "marketPct": -22.7,
+     "relInFallPp": 22,
+     "relReboundPp": 23.9
+    },
+    {
+     "peak": "2018-01-29",
+     "trough": "2018-03-23",
+     "marketPct": -10.2,
+     "relInFallPp": 0.6,
+     "relReboundPp": -18.4
+    },
+    {
+     "peak": "2018-08-28",
+     "trough": "2018-10-26",
+     "marketPct": -14.3,
+     "relInFallPp": -4.5,
+     "relReboundPp": 0.6
+    },
+    {
+     "peak": "2019-06-03",
+     "trough": "2019-09-19",
+     "marketPct": -10.4,
+     "relInFallPp": 8.7,
+     "relReboundPp": 9.5
+    },
+    {
+     "peak": "2020-01-14",
+     "trough": "2020-03-23",
+     "marketPct": -38.1,
+     "relInFallPp": 9.6,
+     "relReboundPp": 10
+    },
+    {
+     "peak": "2021-10-18",
+     "trough": "2022-06-17",
+     "marketPct": -16.8,
+     "relInFallPp": -5.8,
+     "relReboundPp": -1.7
+    },
+    {
+     "peak": "2024-09-26",
+     "trough": "2026-10-08",
+     "marketPct": -16.6,
+     "relInFallPp": -2.8,
+     "relReboundPp": null
+    }
+   ]
+  },
+  {
+   "sector": "Consumer Services",
+   "members": 23,
+   "inFall": {
+    "meanPp": 4.4,
+    "beat": 11,
+    "n": 15
+   },
+   "rebound": {
+    "meanPp": -2.5,
+    "beat": 6,
+    "n": 14
+   },
+   "downBeta": 0.82,
+   "upBeta": 0.73,
+   "episodes": [
+    {
+     "peak": "2004-01-14",
+     "trough": "2004-05-17",
+     "marketPct": -27.3,
+     "relInFallPp": 16,
+     "relReboundPp": 6.5
+    },
+    {
+     "peak": "2005-03-08",
+     "trough": "2005-04-19",
+     "marketPct": -11.3,
+     "relInFallPp": 10.9,
+     "relReboundPp": 5.9
+    },
+    {
+     "peak": "2005-10-04",
+     "trough": "2005-10-28",
+     "marketPct": -12.7,
+     "relInFallPp": -0.7,
+     "relReboundPp": -3.1
+    },
+    {
+     "peak": "2006-05-10",
+     "trough": "2006-06-14",
+     "marketPct": -29.2,
+     "relInFallPp": 1.6,
+     "relReboundPp": -9.8
+    },
+    {
+     "peak": "2007-02-08",
+     "trough": "2007-03-05",
+     "marketPct": -15.3,
+     "relInFallPp": 3.1,
+     "relReboundPp": -8.2
+    },
+    {
+     "peak": "2007-07-24",
+     "trough": "2007-08-21",
+     "marketPct": -11.4,
+     "relInFallPp": 4.2,
+     "relReboundPp": -14.4
+    },
+    {
+     "peak": "2008-01-08",
+     "trough": "2009-03-09",
+     "marketPct": -60.9,
+     "relInFallPp": -0.2,
+     "relReboundPp": -40.8
+    },
+    {
+     "peak": "2010-11-09",
+     "trough": "2011-12-20",
+     "marketPct": -27.5,
+     "relInFallPp": 11.2,
+     "relReboundPp": 6.8
+    },
+    {
+     "peak": "2015-01-29",
+     "trough": "2016-02-11",
+     "marketPct": -22.7,
+     "relInFallPp": 15.3,
+     "relReboundPp": -1.6
+    },
+    {
+     "peak": "2018-01-29",
+     "trough": "2018-03-23",
+     "marketPct": -10.2,
+     "relInFallPp": -0.5,
+     "relReboundPp": -1
+    },
+    {
+     "peak": "2018-08-28",
+     "trough": "2018-10-26",
+     "marketPct": -14.3,
+     "relInFallPp": 1.2,
+     "relReboundPp": 2.5
+    },
+    {
+     "peak": "2019-06-03",
+     "trough": "2019-09-19",
+     "marketPct": -10.4,
+     "relInFallPp": 3.5,
+     "relReboundPp": -2.6
+    },
+    {
+     "peak": "2020-01-14",
+     "trough": "2020-03-23",
+     "marketPct": -38.1,
+     "relInFallPp": 5.1,
+     "relReboundPp": 23.7
+    },
+    {
+     "peak": "2021-10-18",
+     "trough": "2022-06-17",
+     "marketPct": -16.8,
+     "relInFallPp": -7.4,
+     "relReboundPp": 1.5
+    },
+    {
+     "peak": "2024-09-26",
+     "trough": "2026-10-08",
+     "marketPct": -16.6,
+     "relInFallPp": 2.1,
+     "relReboundPp": null
+    }
+   ]
+  },
+  {
+   "sector": "Chemicals",
+   "members": 26,
+   "inFall": {
+    "meanPp": 3.2,
+    "beat": 10,
+    "n": 15
+   },
+   "rebound": {
+    "meanPp": 5.8,
+    "beat": 9,
+    "n": 14
+   },
+   "downBeta": 0.81,
+   "upBeta": 0.73,
+   "episodes": [
+    {
+     "peak": "2004-01-14",
+     "trough": "2004-05-17",
+     "marketPct": -27.3,
+     "relInFallPp": -4.8,
+     "relReboundPp": 17
+    },
+    {
+     "peak": "2005-03-08",
+     "trough": "2005-04-19",
+     "marketPct": -11.3,
+     "relInFallPp": 3.8,
+     "relReboundPp": 22.3
+    },
+    {
+     "peak": "2005-10-04",
+     "trough": "2005-10-28",
+     "marketPct": -12.7,
+     "relInFallPp": 0.4,
+     "relReboundPp": -32.7
+    },
+    {
+     "peak": "2006-05-10",
+     "trough": "2006-06-14",
+     "marketPct": -29.2,
+     "relInFallPp": -10.5,
+     "relReboundPp": -18.6
+    },
+    {
+     "peak": "2007-02-08",
+     "trough": "2007-03-05",
+     "marketPct": -15.3,
+     "relInFallPp": -3.2,
+     "relReboundPp": 7.5
+    },
+    {
+     "peak": "2007-07-24",
+     "trough": "2007-08-21",
+     "marketPct": -11.4,
+     "relInFallPp": 6.5,
+     "relReboundPp": 6.8
+    },
+    {
+     "peak": "2008-01-08",
+     "trough": "2009-03-09",
+     "marketPct": -60.9,
+     "relInFallPp": -1.8,
+     "relReboundPp": 28.9
+    },
+    {
+     "peak": "2010-11-09",
+     "trough": "2011-12-20",
+     "marketPct": -27.5,
+     "relInFallPp": 2.6,
+     "relReboundPp": -2.8
+    },
+    {
+     "peak": "2015-01-29",
+     "trough": "2016-02-11",
+     "marketPct": -22.7,
+     "relInFallPp": 18.8,
+     "relReboundPp": 28.1
+    },
+    {
+     "peak": "2018-01-29",
+     "trough": "2018-03-23",
+     "marketPct": -10.2,
+     "relInFallPp": 1.6,
+     "relReboundPp": -13.9
+    },
+    {
+     "peak": "2018-08-28",
+     "trough": "2018-10-26",
+     "marketPct": -14.3,
+     "relInFallPp": 2.7,
+     "relReboundPp": -2.3
+    },
+    {
+     "peak": "2019-06-03",
+     "trough": "2019-09-19",
+     "marketPct": -10.4,
+     "relInFallPp": -0.4,
+     "relReboundPp": 2.9
+    },
+    {
+     "peak": "2020-01-14",
+     "trough": "2020-03-23",
+     "marketPct": -38.1,
+     "relInFallPp": 7.6,
+     "relReboundPp": 31.7
+    },
+    {
+     "peak": "2021-10-18",
+     "trough": "2022-06-17",
+     "marketPct": -16.8,
+     "relInFallPp": 7,
+     "relReboundPp": 6.9
+    },
+    {
+     "peak": "2024-09-26",
+     "trough": "2026-10-08",
+     "marketPct": -16.6,
+     "relInFallPp": 18,
+     "relReboundPp": null
+    }
+   ]
+  },
+  {
+   "sector": "Information Technology",
+   "members": 25,
+   "inFall": {
+    "meanPp": 2.2,
+    "beat": 7,
+    "n": 15
+   },
+   "rebound": {
+    "meanPp": 8.3,
+    "beat": 6,
+    "n": 14
+   },
+   "downBeta": 0.79,
+   "upBeta": 0.68,
+   "episodes": [
+    {
+     "peak": "2004-01-14",
+     "trough": "2004-05-17",
+     "marketPct": -27.3,
+     "relInFallPp": -1.3,
+     "relReboundPp": 37.8
+    },
+    {
+     "peak": "2005-03-08",
+     "trough": "2005-04-19",
+     "marketPct": -11.3,
+     "relInFallPp": 1,
+     "relReboundPp": -11.9
+    },
+    {
+     "peak": "2005-10-04",
+     "trough": "2005-10-28",
+     "marketPct": -12.7,
+     "relInFallPp": 3.9,
+     "relReboundPp": -16
+    },
+    {
+     "peak": "2006-05-10",
+     "trough": "2006-06-14",
+     "marketPct": -29.2,
+     "relInFallPp": -2.5,
+     "relReboundPp": 18.8
+    },
+    {
+     "peak": "2007-02-08",
+     "trough": "2007-03-05",
+     "marketPct": -15.3,
+     "relInFallPp": 3.5,
+     "relReboundPp": -19.6
+    },
+    {
+     "peak": "2007-07-24",
+     "trough": "2007-08-21",
+     "marketPct": -11.4,
+     "relInFallPp": -1.3,
+     "relReboundPp": -49.1
+    },
+    {
+     "peak": "2008-01-08",
+     "trough": "2009-03-09",
+     "marketPct": -60.9,
+     "relInFallPp": -2.7,
+     "relReboundPp": 85.2
+    },
+    {
+     "peak": "2010-11-09",
+     "trough": "2011-12-20",
+     "marketPct": -27.5,
+     "relInFallPp": 8.3,
+     "relReboundPp": 18.4
+    },
+    {
+     "peak": "2015-01-29",
+     "trough": "2016-02-11",
+     "marketPct": -22.7,
+     "relInFallPp": 29.8,
+     "relReboundPp": -12.9
+    },
+    {
+     "peak": "2018-01-29",
+     "trough": "2018-03-23",
+     "marketPct": -10.2,
+     "relInFallPp": 6.6,
+     "relReboundPp": 12.3
+    },
+    {
+     "peak": "2018-08-28",
+     "trough": "2018-10-26",
+     "marketPct": -14.3,
+     "relInFallPp": -2.6,
+     "relReboundPp": -4.5
+    },
+    {
+     "peak": "2019-06-03",
+     "trough": "2019-09-19",
+     "marketPct": -10.4,
+     "relInFallPp": 2.1,
+     "relReboundPp": -10
+    },
+    {
+     "peak": "2020-01-14",
+     "trough": "2020-03-23",
+     "marketPct": -38.1,
+     "relInFallPp": -0.3,
+     "relReboundPp": 83.9
+    },
+    {
+     "peak": "2021-10-18",
+     "trough": "2022-06-17",
+     "marketPct": -16.8,
+     "relInFallPp": -5.9,
+     "relReboundPp": -16.5
+    },
+    {
+     "peak": "2024-09-26",
+     "trough": "2026-10-08",
+     "marketPct": -16.6,
+     "relInFallPp": -6.1,
+     "relReboundPp": null
+    }
+   ]
+  },
+  {
+   "sector": "Capital Goods",
+   "members": 69,
+   "inFall": {
+    "meanPp": 1.7,
+    "beat": 6,
+    "n": 15
+   },
+   "rebound": {
+    "meanPp": 10.1,
+    "beat": 10,
+    "n": 14
+   },
+   "downBeta": 0.92,
+   "upBeta": 0.79,
+   "episodes": [
+    {
+     "peak": "2004-01-14",
+     "trough": "2004-05-17",
+     "marketPct": -27.3,
+     "relInFallPp": -2.7,
+     "relReboundPp": 15
+    },
+    {
+     "peak": "2005-03-08",
+     "trough": "2005-04-19",
+     "marketPct": -11.3,
+     "relInFallPp": 9.1,
+     "relReboundPp": 11.9
+    },
+    {
+     "peak": "2005-10-04",
+     "trough": "2005-10-28",
+     "marketPct": -12.7,
+     "relInFallPp": 1,
+     "relReboundPp": 4.1
+    },
+    {
+     "peak": "2006-05-10",
+     "trough": "2006-06-14",
+     "marketPct": -29.2,
+     "relInFallPp": -8.6,
+     "relReboundPp": 12.4
+    },
+    {
+     "peak": "2007-02-08",
+     "trough": "2007-03-05",
+     "marketPct": -15.3,
+     "relInFallPp": -0.4,
+     "relReboundPp": 12.8
+    },
+    {
+     "peak": "2007-07-24",
+     "trough": "2007-08-21",
+     "marketPct": -11.4,
+     "relInFallPp": 1.9,
+     "relReboundPp": -0.5
+    },
+    {
+     "peak": "2008-01-08",
+     "trough": "2009-03-09",
+     "marketPct": -60.9,
+     "relInFallPp": -14.7,
+     "relReboundPp": 76.2
+    },
+    {
+     "peak": "2010-11-09",
+     "trough": "2011-12-20",
+     "marketPct": -27.5,
+     "relInFallPp": -17.6,
+     "relReboundPp": 11.4
+    },
+    {
+     "peak": "2015-01-29",
+     "trough": "2016-02-11",
+     "marketPct": -22.7,
+     "relInFallPp": 15.3,
+     "relReboundPp": 3.1
+    },
+    {
+     "peak": "2018-01-29",
+     "trough": "2018-03-23",
+     "marketPct": -10.2,
+     "relInFallPp": -4.1,
+     "relReboundPp": -21.2
+    },
+    {
+     "peak": "2018-08-28",
+     "trough": "2018-10-26",
+     "marketPct": -14.3,
+     "relInFallPp": -2.9,
+     "relReboundPp": -12
+    },
+    {
+     "peak": "2019-06-03",
+     "trough": "2019-09-19",
+     "marketPct": -10.4,
+     "relInFallPp": -7.8,
+     "relReboundPp": -21.6
+    },
+    {
+     "peak": "2020-01-14",
+     "trough": "2020-03-23",
+     "marketPct": -38.1,
+     "relInFallPp": -6.6,
+     "relReboundPp": 22.8
+    },
+    {
+     "peak": "2021-10-18",
+     "trough": "2022-06-17",
+     "marketPct": -16.8,
+     "relInFallPp": 16.5,
+     "relReboundPp": 27.6
+    },
+    {
+     "peak": "2024-09-26",
+     "trough": "2026-10-08",
+     "marketPct": -16.6,
+     "relInFallPp": 47.2,
+     "relReboundPp": null
+    }
+   ]
+  },
+  {
+   "sector": "Automobile and Auto Components",
+   "members": 40,
+   "inFall": {
+    "meanPp": 1.2,
+    "beat": 5,
+    "n": 15
+   },
+   "rebound": {
+    "meanPp": 5.1,
+    "beat": 7,
+    "n": 14
+   },
+   "downBeta": 0.88,
+   "upBeta": 0.81,
+   "episodes": [
+    {
+     "peak": "2004-01-14",
+     "trough": "2004-05-17",
+     "marketPct": -27.3,
+     "relInFallPp": -4.2,
+     "relReboundPp": 14.6
+    },
+    {
+     "peak": "2005-03-08",
+     "trough": "2005-04-19",
+     "marketPct": -11.3,
+     "relInFallPp": 1.9,
+     "relReboundPp": -1.6
+    },
+    {
+     "peak": "2005-10-04",
+     "trough": "2005-10-28",
+     "marketPct": -12.7,
+     "relInFallPp": -0.1,
+     "relReboundPp": 1
+    },
+    {
+     "peak": "2006-05-10",
+     "trough": "2006-06-14",
+     "marketPct": -29.2,
+     "relInFallPp": -4.9,
+     "relReboundPp": -3.6
+    },
+    {
+     "peak": "2007-02-08",
+     "trough": "2007-03-05",
+     "marketPct": -15.3,
+     "relInFallPp": -0.2,
+     "relReboundPp": -5.8
+    },
+    {
+     "peak": "2007-07-24",
+     "trough": "2007-08-21",
+     "marketPct": -11.4,
+     "relInFallPp": 5.2,
+     "relReboundPp": -17.3
+    },
+    {
+     "peak": "2008-01-08",
+     "trough": "2009-03-09",
+     "marketPct": -60.9,
+     "relInFallPp": -4.9,
+     "relReboundPp": 64.2
+    },
+    {
+     "peak": "2010-11-09",
+     "trough": "2011-12-20",
+     "marketPct": -27.5,
+     "relInFallPp": -1.1,
+     "relReboundPp": 17.4
+    },
+    {
+     "peak": "2015-01-29",
+     "trough": "2016-02-11",
+     "marketPct": -22.7,
+     "relInFallPp": 13.1,
+     "relReboundPp": 13.3
+    },
+    {
+     "peak": "2018-01-29",
+     "trough": "2018-03-23",
+     "marketPct": -10.2,
+     "relInFallPp": -0.2,
+     "relReboundPp": -13.2
+    },
+    {
+     "peak": "2018-08-28",
+     "trough": "2018-10-26",
+     "marketPct": -14.3,
+     "relInFallPp": -3.2,
+     "relReboundPp": -14.9
+    },
+    {
+     "peak": "2019-06-03",
+     "trough": "2019-09-19",
+     "marketPct": -10.4,
+     "relInFallPp": -7.4,
+     "relReboundPp": -15.8
+    },
+    {
+     "peak": "2020-01-14",
+     "trough": "2020-03-23",
+     "marketPct": -38.1,
+     "relInFallPp": -6.9,
+     "relReboundPp": 18.1
+    },
+    {
+     "peak": "2021-10-18",
+     "trough": "2022-06-17",
+     "marketPct": -16.8,
+     "relInFallPp": 6.9,
+     "relReboundPp": 15.5
+    },
+    {
+     "peak": "2024-09-26",
+     "trough": "2026-10-08",
+     "marketPct": -16.6,
+     "relInFallPp": 23.8,
+     "relReboundPp": null
+    }
+   ]
+  },
+  {
+   "sector": "Construction Materials",
+   "members": 11,
+   "inFall": {
+    "meanPp": -0.6,
+    "beat": 8,
+    "n": 15
+   },
+   "rebound": {
+    "meanPp": 7.8,
+    "beat": 8,
+    "n": 14
+   },
+   "downBeta": 0.9,
+   "upBeta": 0.88,
+   "episodes": [
+    {
+     "peak": "2004-01-14",
+     "trough": "2004-05-17",
+     "marketPct": -27.3,
+     "relInFallPp": 8.9,
+     "relReboundPp": -2.9
+    },
+    {
+     "peak": "2005-03-08",
+     "trough": "2005-04-19",
+     "marketPct": -11.3,
+     "relInFallPp": 6.3,
+     "relReboundPp": -5.8
+    },
+    {
+     "peak": "2005-10-04",
+     "trough": "2005-10-28",
+     "marketPct": -12.7,
+     "relInFallPp": -3.1,
+     "relReboundPp": 58.6
+    },
+    {
+     "peak": "2006-05-10",
+     "trough": "2006-06-14",
+     "marketPct": -29.2,
+     "relInFallPp": -6.3,
+     "relReboundPp": 22.3
+    },
+    {
+     "peak": "2007-02-08",
+     "trough": "2007-03-05",
+     "marketPct": -15.3,
+     "relInFallPp": -8.6,
+     "relReboundPp": 8.9
+    },
+    {
+     "peak": "2007-07-24",
+     "trough": "2007-08-21",
+     "marketPct": -11.4,
+     "relInFallPp": 0.4,
+     "relReboundPp": -23.1
+    },
+    {
+     "peak": "2008-01-08",
+     "trough": "2009-03-09",
+     "marketPct": -60.9,
+     "relInFallPp": 1.7,
+     "relReboundPp": -11.5
+    },
+    {
+     "peak": "2010-11-09",
+     "trough": "2011-12-20",
+     "marketPct": -27.5,
+     "relInFallPp": 10.5,
+     "relReboundPp": 16.2
+    },
+    {
+     "peak": "2015-01-29",
+     "trough": "2016-02-11",
+     "marketPct": -22.7,
+     "relInFallPp": 6.4,
+     "relReboundPp": 30.2
+    },
+    {
+     "peak": "2018-01-29",
+     "trough": "2018-03-23",
+     "marketPct": -10.2,
+     "relInFallPp": -1.2,
+     "relReboundPp": -17
+    },
+    {
+     "peak": "2018-08-28",
+     "trough": "2018-10-26",
+     "marketPct": -14.3,
+     "relInFallPp": -8.3,
+     "relReboundPp": 13.3
+    },
+    {
+     "peak": "2019-06-03",
+     "trough": "2019-09-19",
+     "marketPct": -10.4,
+     "relInFallPp": -8.3,
+     "relReboundPp": -4.2
+    },
+    {
+     "peak": "2020-01-14",
+     "trough": "2020-03-23",
+     "marketPct": -38.1,
+     "relInFallPp": 5.7,
+     "relReboundPp": 2.4
+    },
+    {
+     "peak": "2021-10-18",
+     "trough": "2022-06-17",
+     "marketPct": -16.8,
+     "relInFallPp": -14.8,
+     "relReboundPp": 21.2
+    },
+    {
+     "peak": "2024-09-26",
+     "trough": "2026-10-08",
+     "marketPct": -16.6,
+     "relInFallPp": 1.6,
+     "relReboundPp": null
+    }
+   ]
+  },
+  {
+   "sector": "Power",
+   "members": 19,
+   "inFall": {
+    "meanPp": -0.9,
+    "beat": 5,
+    "n": 15
+   },
+   "rebound": {
+    "meanPp": 6.6,
+    "beat": 8,
+    "n": 14
+   },
+   "downBeta": 0.93,
+   "upBeta": 0.81,
+   "episodes": [
+    {
+     "peak": "2004-01-14",
+     "trough": "2004-05-17",
+     "marketPct": -27.3,
+     "relInFallPp": -9.8,
+     "relReboundPp": 56.7
+    },
+    {
+     "peak": "2005-03-08",
+     "trough": "2005-04-19",
+     "marketPct": -11.3,
+     "relInFallPp": -2.4,
+     "relReboundPp": -16.4
+    },
+    {
+     "peak": "2005-10-04",
+     "trough": "2005-10-28",
+     "marketPct": -12.7,
+     "relInFallPp": -4.6,
+     "relReboundPp": 1
+    },
+    {
+     "peak": "2006-05-10",
+     "trough": "2006-06-14",
+     "marketPct": -29.2,
+     "relInFallPp": -9.8,
+     "relReboundPp": -7.2
+    },
+    {
+     "peak": "2007-02-08",
+     "trough": "2007-03-05",
+     "marketPct": -15.3,
+     "relInFallPp": -0.8,
+     "relReboundPp": 36.2
+    },
+    {
+     "peak": "2007-07-24",
+     "trough": "2007-08-21",
+     "marketPct": -11.4,
+     "relInFallPp": 8.9,
+     "relReboundPp": 38.2
+    },
+    {
+     "peak": "2008-01-08",
+     "trough": "2009-03-09",
+     "marketPct": -60.9,
+     "relInFallPp": -0.4,
+     "relReboundPp": 7.9
+    },
+    {
+     "peak": "2010-11-09",
+     "trough": "2011-12-20",
+     "marketPct": -27.5,
+     "relInFallPp": -14.8,
+     "relReboundPp": -4.6
+    },
+    {
+     "peak": "2015-01-29",
+     "trough": "2016-02-11",
+     "marketPct": -22.7,
+     "relInFallPp": -0.1,
+     "relReboundPp": 2.3
+    },
+    {
+     "peak": "2018-01-29",
+     "trough": "2018-03-23",
+     "marketPct": -10.2,
+     "relInFallPp": -4.4,
+     "relReboundPp": -18.9
+    },
+    {
+     "peak": "2018-08-28",
+     "trough": "2018-10-26",
+     "marketPct": -14.3,
+     "relInFallPp": 1.4,
+     "relReboundPp": -15.8
+    },
+    {
+     "peak": "2019-06-03",
+     "trough": "2019-09-19",
+     "marketPct": -10.4,
+     "relInFallPp": 4,
+     "relReboundPp": -16.7
+    },
+    {
+     "peak": "2020-01-14",
+     "trough": "2020-03-23",
+     "marketPct": -38.1,
+     "relInFallPp": -3.4,
+     "relReboundPp": 22.1
+    },
+    {
+     "peak": "2021-10-18",
+     "trough": "2022-06-17",
+     "marketPct": -16.8,
+     "relInFallPp": 17.6,
+     "relReboundPp": 7.6
+    },
+    {
+     "peak": "2024-09-26",
+     "trough": "2026-10-08",
+     "marketPct": -16.6,
+     "relInFallPp": 5.6,
+     "relReboundPp": null
+    }
+   ]
+  },
+  {
+   "sector": "Services",
+   "members": 14,
+   "inFall": {
+    "meanPp": -1.4,
+    "beat": 6,
+    "n": 15
+   },
+   "rebound": {
+    "meanPp": 6.5,
+    "beat": 8,
+    "n": 14
+   },
+   "downBeta": 0.97,
+   "upBeta": 0.8,
+   "episodes": [
+    {
+     "peak": "2004-01-14",
+     "trough": "2004-05-17",
+     "marketPct": -27.3,
+     "relInFallPp": -17.8,
+     "relReboundPp": 54.5
+    },
+    {
+     "peak": "2005-03-08",
+     "trough": "2005-04-19",
+     "marketPct": -11.3,
+     "relInFallPp": -0.6,
+     "relReboundPp": 0.6
+    },
+    {
+     "peak": "2005-10-04",
+     "trough": "2005-10-28",
+     "marketPct": -12.7,
+     "relInFallPp": 7.3,
+     "relReboundPp": -32.2
+    },
+    {
+     "peak": "2006-05-10",
+     "trough": "2006-06-14",
+     "marketPct": -29.2,
+     "relInFallPp": 2.8,
+     "relReboundPp": 9.9
+    },
+    {
+     "peak": "2007-02-08",
+     "trough": "2007-03-05",
+     "marketPct": -15.3,
+     "relInFallPp": -1.4,
+     "relReboundPp": 37
+    },
+    {
+     "peak": "2007-07-24",
+     "trough": "2007-08-21",
+     "marketPct": -11.4,
+     "relInFallPp": -6.4,
+     "relReboundPp": -7.7
+    },
+    {
+     "peak": "2008-01-08",
+     "trough": "2009-03-09",
+     "marketPct": -60.9,
+     "relInFallPp": -6,
+     "relReboundPp": 33.9
+    },
+    {
+     "peak": "2010-11-09",
+     "trough": "2011-12-20",
+     "marketPct": -27.5,
+     "relInFallPp": -20.6,
+     "relReboundPp": 2.4
+    },
+    {
+     "peak": "2015-01-29",
+     "trough": "2016-02-11",
+     "marketPct": -22.7,
+     "relInFallPp": 10.4,
+     "relReboundPp": -1.8
+    },
+    {
+     "peak": "2018-01-29",
+     "trough": "2018-03-23",
+     "marketPct": -10.2,
+     "relInFallPp": -3.4,
+     "relReboundPp": -21.1
+    },
+    {
+     "peak": "2018-08-28",
+     "trough": "2018-10-26",
+     "marketPct": -14.3,
+     "relInFallPp": 0.9,
+     "relReboundPp": -6.6
+    },
+    {
+     "peak": "2019-06-03",
+     "trough": "2019-09-19",
+     "marketPct": -10.4,
+     "relInFallPp": 0.4,
+     "relReboundPp": -12.8
+    },
+    {
+     "peak": "2020-01-14",
+     "trough": "2020-03-23",
+     "marketPct": -38.1,
+     "relInFallPp": -5,
+     "relReboundPp": 27.7
+    },
+    {
+     "peak": "2021-10-18",
+     "trough": "2022-06-17",
+     "marketPct": -16.8,
+     "relInFallPp": -3.2,
+     "relReboundPp": 7.3
+    },
+    {
+     "peak": "2024-09-26",
+     "trough": "2026-10-08",
+     "marketPct": -16.6,
+     "relInFallPp": 21.7,
+     "relReboundPp": null
+    }
+   ]
+  },
+  {
+   "sector": "Telecommunication",
+   "members": 11,
+   "inFall": {
+    "meanPp": -1.8,
+    "beat": 4,
+    "n": 15
+   },
+   "rebound": {
+    "meanPp": 1.5,
+    "beat": 7,
+    "n": 14
+   },
+   "downBeta": 1,
+   "upBeta": 0.86,
+   "episodes": [
+    {
+     "peak": "2004-01-14",
+     "trough": "2004-05-17",
+     "marketPct": -27.3,
+     "relInFallPp": -8.6,
+     "relReboundPp": 5.5
+    },
+    {
+     "peak": "2005-03-08",
+     "trough": "2005-04-19",
+     "marketPct": -11.3,
+     "relInFallPp": -3.6,
+     "relReboundPp": 31
+    },
+    {
+     "peak": "2005-10-04",
+     "trough": "2005-10-28",
+     "marketPct": -12.7,
+     "relInFallPp": -8,
+     "relReboundPp": -5.8
+    },
+    {
+     "peak": "2006-05-10",
+     "trough": "2006-06-14",
+     "marketPct": -29.2,
+     "relInFallPp": -13,
+     "relReboundPp": 1.3
+    },
+    {
+     "peak": "2007-02-08",
+     "trough": "2007-03-05",
+     "marketPct": -15.3,
+     "relInFallPp": -7.6,
+     "relReboundPp": 3.7
+    },
+    {
+     "peak": "2007-07-24",
+     "trough": "2007-08-21",
+     "marketPct": -11.4,
+     "relInFallPp": -4.6,
+     "relReboundPp": -6.4
+    },
+    {
+     "peak": "2008-01-08",
+     "trough": "2009-03-09",
+     "marketPct": -60.9,
+     "relInFallPp": -8.9,
+     "relReboundPp": 8.6
+    },
+    {
+     "peak": "2010-11-09",
+     "trough": "2011-12-20",
+     "marketPct": -27.5,
+     "relInFallPp": -3.5,
+     "relReboundPp": -7.3
+    },
+    {
+     "peak": "2015-01-29",
+     "trough": "2016-02-11",
+     "marketPct": -22.7,
+     "relInFallPp": 12.8,
+     "relReboundPp": -9
+    },
+    {
+     "peak": "2018-01-29",
+     "trough": "2018-03-23",
+     "marketPct": -10.2,
+     "relInFallPp": 1.3,
+     "relReboundPp": -31.2
+    },
+    {
+     "peak": "2018-08-28",
+     "trough": "2018-10-26",
+     "marketPct": -14.3,
+     "relInFallPp": -1.6,
+     "relReboundPp": -20.1
+    },
+    {
+     "peak": "2019-06-03",
+     "trough": "2019-09-19",
+     "marketPct": -10.4,
+     "relInFallPp": -12.2,
+     "relReboundPp": -15.9
+    },
+    {
+     "peak": "2020-01-14",
+     "trough": "2020-03-23",
+     "marketPct": -38.1,
+     "relInFallPp": -1.9,
+     "relReboundPp": 62.5
+    },
+    {
+     "peak": "2021-10-18",
+     "trough": "2022-06-17",
+     "marketPct": -16.8,
+     "relInFallPp": 0.1,
+     "relReboundPp": 4
+    },
+    {
+     "peak": "2024-09-26",
+     "trough": "2026-10-08",
+     "marketPct": -16.6,
+     "relInFallPp": 31.8,
+     "relReboundPp": null
+    }
+   ]
+  },
+  {
+   "sector": "Media Entertainment & Publication",
+   "members": 4,
+   "inFall": {
+    "meanPp": -1.9,
+    "beat": 2,
+    "n": 12
+   },
+   "rebound": {
+    "meanPp": 0.9,
+    "beat": 5,
+    "n": 11
+   },
+   "downBeta": 0.98,
+   "upBeta": 0.76,
+   "episodes": [
+    {
+     "peak": "2004-01-14",
+     "trough": "2004-05-17",
+     "marketPct": -27.3,
+     "relInFallPp": null,
+     "relReboundPp": null
+    },
+    {
+     "peak": "2005-03-08",
+     "trough": "2005-04-19",
+     "marketPct": -11.3,
+     "relInFallPp": null,
+     "relReboundPp": null
+    },
+    {
+     "peak": "2005-10-04",
+     "trough": "2005-10-28",
+     "marketPct": -12.7,
+     "relInFallPp": null,
+     "relReboundPp": null
+    },
+    {
+     "peak": "2006-05-10",
+     "trough": "2006-06-14",
+     "marketPct": -29.2,
+     "relInFallPp": -6.2,
+     "relReboundPp": -15.2
+    },
+    {
+     "peak": "2007-02-08",
+     "trough": "2007-03-05",
+     "marketPct": -15.3,
+     "relInFallPp": -2.9,
+     "relReboundPp": 26.7
+    },
+    {
+     "peak": "2007-07-24",
+     "trough": "2007-08-21",
+     "marketPct": -11.4,
+     "relInFallPp": -7.1,
+     "relReboundPp": -11.5
+    },
+    {
+     "peak": "2008-01-08",
+     "trough": "2009-03-09",
+     "marketPct": -60.9,
+     "relInFallPp": -18.3,
+     "relReboundPp": 24.9
+    },
+    {
+     "peak": "2010-11-09",
+     "trough": "2011-12-20",
+     "marketPct": -27.5,
+     "relInFallPp": -3.9,
+     "relReboundPp": 3.4
+    },
+    {
+     "peak": "2015-01-29",
+     "trough": "2016-02-11",
+     "marketPct": -22.7,
+     "relInFallPp": 19.1,
+     "relReboundPp": 32.5
+    },
+    {
+     "peak": "2018-01-29",
+     "trough": "2018-03-23",
+     "marketPct": -10.2,
+     "relInFallPp": -5.4,
+     "relReboundPp": -24.6
+    },
+    {
+     "peak": "2018-08-28",
+     "trough": "2018-10-26",
+     "marketPct": -14.3,
+     "relInFallPp": -1.6,
+     "relReboundPp": -11.7
+    },
+    {
+     "peak": "2019-06-03",
+     "trough": "2019-09-19",
+     "marketPct": -10.4,
+     "relInFallPp": -6.7,
+     "relReboundPp": -16.3
+    },
+    {
+     "peak": "2020-01-14",
+     "trough": "2020-03-23",
+     "marketPct": -38.1,
+     "relInFallPp": -4,
+     "relReboundPp": 1.7
+    },
+    {
+     "peak": "2021-10-18",
+     "trough": "2022-06-17",
+     "marketPct": -16.8,
+     "relInFallPp": -2,
+     "relReboundPp": -0.4
+    },
+    {
+     "peak": "2024-09-26",
+     "trough": "2026-10-08",
+     "marketPct": -16.6,
+     "relInFallPp": 16.3,
+     "relReboundPp": null
+    }
+   ]
+  },
+  {
+   "sector": "Financial Services",
+   "members": 98,
+   "inFall": {
+    "meanPp": -2.2,
+    "beat": 4,
+    "n": 15
+   },
+   "rebound": {
+    "meanPp": 5.5,
+    "beat": 10,
+    "n": 14
+   },
+   "downBeta": 1.09,
+   "upBeta": 0.95,
+   "episodes": [
+    {
+     "peak": "2004-01-14",
+     "trough": "2004-05-17",
+     "marketPct": -27.3,
+     "relInFallPp": 0.6,
+     "relReboundPp": 3.5
+    },
+    {
+     "peak": "2005-03-08",
+     "trough": "2005-04-19",
+     "marketPct": -11.3,
+     "relInFallPp": 2.8,
+     "relReboundPp": 2.9
+    },
+    {
+     "peak": "2005-10-04",
+     "trough": "2005-10-28",
+     "marketPct": -12.7,
+     "relInFallPp": -2.8,
+     "relReboundPp": -23.8
+    },
+    {
+     "peak": "2006-05-10",
+     "trough": "2006-06-14",
+     "marketPct": -29.2,
+     "relInFallPp": -3.8,
+     "relReboundPp": 3.8
+    },
+    {
+     "peak": "2007-02-08",
+     "trough": "2007-03-05",
+     "marketPct": -15.3,
+     "relInFallPp": -1.3,
+     "relReboundPp": 22.2
+    },
+    {
+     "peak": "2007-07-24",
+     "trough": "2007-08-21",
+     "marketPct": -11.4,
+     "relInFallPp": 2.4,
+     "relReboundPp": 11.1
+    },
+    {
+     "peak": "2008-01-08",
+     "trough": "2009-03-09",
+     "marketPct": -60.9,
+     "relInFallPp": -6.8,
+     "relReboundPp": 41.1
+    },
+    {
+     "peak": "2010-11-09",
+     "trough": "2011-12-20",
+     "marketPct": -27.5,
+     "relInFallPp": -12.8,
+     "relReboundPp": 7
+    },
+    {
+     "peak": "2015-01-29",
+     "trough": "2016-02-11",
+     "marketPct": -22.7,
+     "relInFallPp": -2.3,
+     "relReboundPp": 27.1
+    },
+    {
+     "peak": "2018-01-29",
+     "trough": "2018-03-23",
+     "marketPct": -10.2,
+     "relInFallPp": -3.7,
+     "relReboundPp": -19.7
+    },
+    {
+     "peak": "2018-08-28",
+     "trough": "2018-10-26",
+     "marketPct": -14.3,
+     "relInFallPp": -7.5,
+     "relReboundPp": 5.3
+    },
+    {
+     "peak": "2019-06-03",
+     "trough": "2019-09-19",
+     "marketPct": -10.4,
+     "relInFallPp": -7.5,
+     "relReboundPp": -18.2
+    },
+    {
+     "peak": "2020-01-14",
+     "trough": "2020-03-23",
+     "marketPct": -38.1,
+     "relInFallPp": -9,
+     "relReboundPp": -3.2
+    },
+    {
+     "peak": "2021-10-18",
+     "trough": "2022-06-17",
+     "marketPct": -16.8,
+     "relInFallPp": -5.5,
+     "relReboundPp": 18.3
+    },
+    {
+     "peak": "2024-09-26",
+     "trough": "2026-10-08",
+     "marketPct": -16.6,
+     "relInFallPp": 24.2,
+     "relReboundPp": null
+    }
+   ]
+  },
+  {
+   "sector": "Construction",
+   "members": 13,
+   "inFall": {
+    "meanPp": -3.9,
+    "beat": 5,
+    "n": 15
+   },
+   "rebound": {
+    "meanPp": 20,
+    "beat": 11,
+    "n": 14
+   },
+   "downBeta": 1.09,
+   "upBeta": 0.94,
+   "episodes": [
+    {
+     "peak": "2004-01-14",
+     "trough": "2004-05-17",
+     "marketPct": -27.3,
+     "relInFallPp": -7.6,
+     "relReboundPp": 65.1
+    },
+    {
+     "peak": "2005-03-08",
+     "trough": "2005-04-19",
+     "marketPct": -11.3,
+     "relInFallPp": 23.4,
+     "relReboundPp": 6.8
+    },
+    {
+     "peak": "2005-10-04",
+     "trough": "2005-10-28",
+     "marketPct": -12.7,
+     "relInFallPp": 4.1,
+     "relReboundPp": 39.1
+    },
+    {
+     "peak": "2006-05-10",
+     "trough": "2006-06-14",
+     "marketPct": -29.2,
+     "relInFallPp": -14.4,
+     "relReboundPp": -0.3
+    },
+    {
+     "peak": "2007-02-08",
+     "trough": "2007-03-05",
+     "marketPct": -15.3,
+     "relInFallPp": -2,
+     "relReboundPp": 4.2
+    },
+    {
+     "peak": "2007-07-24",
+     "trough": "2007-08-21",
+     "marketPct": -11.4,
+     "relInFallPp": 2.1,
+     "relReboundPp": 27.8
+    },
+    {
+     "peak": "2008-01-08",
+     "trough": "2009-03-09",
+     "marketPct": -60.9,
+     "relInFallPp": -18.3,
+     "relReboundPp": 113.9
+    },
+    {
+     "peak": "2010-11-09",
+     "trough": "2011-12-20",
+     "marketPct": -27.5,
+     "relInFallPp": -28.6,
+     "relReboundPp": 8.6
+    },
+    {
+     "peak": "2015-01-29",
+     "trough": "2016-02-11",
+     "marketPct": -22.7,
+     "relInFallPp": 19,
+     "relReboundPp": 19
+    },
+    {
+     "peak": "2018-01-29",
+     "trough": "2018-03-23",
+     "marketPct": -10.2,
+     "relInFallPp": 0.9,
+     "relReboundPp": -33.1
+    },
+    {
+     "peak": "2018-08-28",
+     "trough": "2018-10-26",
+     "marketPct": -14.3,
+     "relInFallPp": -5.5,
+     "relReboundPp": 3.2
+    },
+    {
+     "peak": "2019-06-03",
+     "trough": "2019-09-19",
+     "marketPct": -10.4,
+     "relInFallPp": -12.5,
+     "relReboundPp": -23.8
+    },
+    {
+     "peak": "2020-01-14",
+     "trough": "2020-03-23",
+     "marketPct": -38.1,
+     "relInFallPp": -9.7,
+     "relReboundPp": 6.4
+    },
+    {
+     "peak": "2021-10-18",
+     "trough": "2022-06-17",
+     "marketPct": -16.8,
+     "relInFallPp": -3.3,
+     "relReboundPp": 43.7
+    },
+    {
+     "peak": "2024-09-26",
+     "trough": "2026-10-08",
+     "marketPct": -16.6,
+     "relInFallPp": -5.6,
+     "relReboundPp": null
+    }
+   ]
+  },
+  {
+   "sector": "Metals & Mining",
+   "members": 20,
+   "inFall": {
+    "meanPp": -3.9,
+    "beat": 2,
+    "n": 15
+   },
+   "rebound": {
+    "meanPp": 16.3,
+    "beat": 9,
+    "n": 14
+   },
+   "downBeta": 1.24,
+   "upBeta": 1.11,
+   "episodes": [
+    {
+     "peak": "2004-01-14",
+     "trough": "2004-05-17",
+     "marketPct": -27.3,
+     "relInFallPp": -9.5,
+     "relReboundPp": 50.4
+    },
+    {
+     "peak": "2005-03-08",
+     "trough": "2005-04-19",
+     "marketPct": -11.3,
+     "relInFallPp": -3.6,
+     "relReboundPp": -13.7
+    },
+    {
+     "peak": "2005-10-04",
+     "trough": "2005-10-28",
+     "marketPct": -12.7,
+     "relInFallPp": -7.5,
+     "relReboundPp": 2.4
+    },
+    {
+     "peak": "2006-05-10",
+     "trough": "2006-06-14",
+     "marketPct": -29.2,
+     "relInFallPp": -3.7,
+     "relReboundPp": -10.7
+    },
+    {
+     "peak": "2007-02-08",
+     "trough": "2007-03-05",
+     "marketPct": -15.3,
+     "relInFallPp": 5.1,
+     "relReboundPp": 28.3
+    },
+    {
+     "peak": "2007-07-24",
+     "trough": "2007-08-21",
+     "marketPct": -11.4,
+     "relInFallPp": -2.2,
+     "relReboundPp": 50.1
+    },
+    {
+     "peak": "2008-01-08",
+     "trough": "2009-03-09",
+     "marketPct": -60.9,
+     "relInFallPp": -11.3,
+     "relReboundPp": 80.4
+    },
+    {
+     "peak": "2010-11-09",
+     "trough": "2011-12-20",
+     "marketPct": -27.5,
+     "relInFallPp": -16.1,
+     "relReboundPp": 6.9
+    },
+    {
+     "peak": "2015-01-29",
+     "trough": "2016-02-11",
+     "marketPct": -22.7,
+     "relInFallPp": -16.7,
+     "relReboundPp": 38.4
+    },
+    {
+     "peak": "2018-01-29",
+     "trough": "2018-03-23",
+     "marketPct": -10.2,
+     "relInFallPp": -8.3,
+     "relReboundPp": -10.5
+    },
+    {
+     "peak": "2018-08-28",
+     "trough": "2018-10-26",
+     "marketPct": -14.3,
+     "relInFallPp": -1.6,
+     "relReboundPp": -22.1
+    },
+    {
+     "peak": "2019-06-03",
+     "trough": "2019-09-19",
+     "marketPct": -10.4,
+     "relInFallPp": -11,
+     "relReboundPp": -19.4
+    },
+    {
+     "peak": "2020-01-14",
+     "trough": "2020-03-23",
+     "marketPct": -38.1,
+     "relInFallPp": -11.3,
+     "relReboundPp": 26.7
+    },
+    {
+     "peak": "2021-10-18",
+     "trough": "2022-06-17",
+     "marketPct": -16.8,
+     "relInFallPp": -2.7,
+     "relReboundPp": 20.9
+    },
+    {
+     "peak": "2024-09-26",
+     "trough": "2026-10-08",
+     "marketPct": -16.6,
+     "relInFallPp": 41.9,
+     "relReboundPp": null
+    }
+   ]
+  },
+  {
+   "sector": "Realty",
+   "members": 13,
+   "inFall": {
+    "meanPp": -6.6,
+    "beat": 3,
+    "n": 11
+   },
+   "rebound": {
+    "meanPp": 12.3,
+    "beat": 5,
+    "n": 10
+   },
+   "downBeta": 1.11,
+   "upBeta": 0.93,
+   "episodes": [
+    {
+     "peak": "2004-01-14",
+     "trough": "2004-05-17",
+     "marketPct": -27.3,
+     "relInFallPp": null,
+     "relReboundPp": null
+    },
+    {
+     "peak": "2005-03-08",
+     "trough": "2005-04-19",
+     "marketPct": -11.3,
+     "relInFallPp": null,
+     "relReboundPp": null
+    },
+    {
+     "peak": "2005-10-04",
+     "trough": "2005-10-28",
+     "marketPct": -12.7,
+     "relInFallPp": null,
+     "relReboundPp": null
+    },
+    {
+     "peak": "2006-05-10",
+     "trough": "2006-06-14",
+     "marketPct": -29.2,
+     "relInFallPp": null,
+     "relReboundPp": null
+    },
+    {
+     "peak": "2007-02-08",
+     "trough": "2007-03-05",
+     "marketPct": -15.3,
+     "relInFallPp": -8.3,
+     "relReboundPp": 9.4
+    },
+    {
+     "peak": "2007-07-24",
+     "trough": "2007-08-21",
+     "marketPct": -11.4,
+     "relInFallPp": 2.5,
+     "relReboundPp": -6.5
+    },
+    {
+     "peak": "2008-01-08",
+     "trough": "2009-03-09",
+     "marketPct": -60.9,
+     "relInFallPp": -26.5,
+     "relReboundPp": 127.9
+    },
+    {
+     "peak": "2010-11-09",
+     "trough": "2011-12-20",
+     "marketPct": -27.5,
+     "relInFallPp": -21.9,
+     "relReboundPp": 12.4
+    },
+    {
+     "peak": "2015-01-29",
+     "trough": "2016-02-11",
+     "marketPct": -22.7,
+     "relInFallPp": -4.8,
+     "relReboundPp": 22.6
+    },
+    {
+     "peak": "2018-01-29",
+     "trough": "2018-03-23",
+     "marketPct": -10.2,
+     "relInFallPp": -4.8,
+     "relReboundPp": -25.1
+    },
+    {
+     "peak": "2018-08-28",
+     "trough": "2018-10-26",
+     "marketPct": -14.3,
+     "relInFallPp": -2.9,
+     "relReboundPp": 8.4
+    },
+    {
+     "peak": "2019-06-03",
+     "trough": "2019-09-19",
+     "marketPct": -10.4,
+     "relInFallPp": 10.1,
+     "relReboundPp": -15.6
+    },
+    {
+     "peak": "2020-01-14",
+     "trough": "2020-03-23",
+     "marketPct": -38.1,
+     "relInFallPp": -6.8,
+     "relReboundPp": -7.8
+    },
+    {
+     "peak": "2021-10-18",
+     "trough": "2022-06-17",
+     "marketPct": -16.8,
+     "relInFallPp": 1.4,
+     "relReboundPp": -3.1
+    },
+    {
+     "peak": "2024-09-26",
+     "trough": "2026-10-08",
+     "marketPct": -16.6,
+     "relInFallPp": -11.1,
+     "relReboundPp": null
+    }
+   ]
+  }
+ ],
+ "eventMoves": [
+  {
+   "date": "1999-05-26",
+   "label": "war-indo-pak",
+   "name": "Kargil (Operation Vijay)",
+   "firstDayPct": -2.1,
+   "d20Pct": 4.8,
+   "worst60Pct": -7.1,
+   "recoveryDays": 9
+  },
+  {
+   "date": "2001-09-12",
+   "label": "global-financial",
+   "name": "9/11 attacks",
+   "firstDayPct": -3.7,
+   "d20Pct": -8.1,
+   "worst60Pct": -17.5,
+   "recoveryDays": 44
+  },
+  {
+   "date": "2001-12-13",
+   "label": "war-indo-pak",
+   "name": "Parliament attack",
+   "firstDayPct": -0.7,
+   "d20Pct": -0.1,
+   "worst60Pct": -8.2,
+   "recoveryDays": 15
+  },
+  {
+   "date": "2003-03-20",
+   "label": "war-oil",
+   "name": "Iraq invasion",
+   "firstDayPct": 2.3,
+   "d20Pct": -4.4,
+   "worst60Pct": -6.3,
+   "recoveryDays": 0
+  },
+  {
+   "date": "2004-05-14",
+   "label": "election",
+   "name": "2004 election surprise",
+   "firstDayPct": -6.1,
+   "d20Pct": -8.4,
+   "worst60Pct": -16.6,
+   "recoveryDays": 87
+  },
+  {
+   "date": "2008-09-15",
+   "label": "global-financial",
+   "name": "Lehman collapse",
+   "firstDayPct": -3.4,
+   "d20Pct": -18,
+   "worst60Pct": -39.6,
+   "recoveryDays": 4
+  },
+  {
+   "date": "2008-11-28",
+   "label": "war-indo-pak",
+   "name": "26/11 Mumbai attacks",
+   "firstDayPct": 0.7,
+   "d20Pct": 5.6,
+   "worst60Pct": -3.9,
+   "recoveryDays": 0
+  },
+  {
+   "date": "2009-05-18",
+   "label": "election",
+   "name": "2009 clear majority",
+   "firstDayPct": 17.3,
+   "d20Pct": 25.2,
+   "worst60Pct": 10.1,
+   "recoveryDays": 0
+  },
+  {
+   "date": "2011-08-08",
+   "label": "global-financial",
+   "name": "US credit downgrade",
+   "firstDayPct": -1.8,
+   "d20Pct": -1.4,
+   "worst60Pct": -8.7,
+   "recoveryDays": 53
+  },
+  {
+   "date": "2013-05-23",
+   "label": "rates",
+   "name": "Taper tantrum",
+   "firstDayPct": -1.9,
+   "d20Pct": -4.1,
+   "worst60Pct": -7.6,
+   "recoveryDays": 3
+  },
+  {
+   "date": "2013-08-28",
+   "label": "fx",
+   "name": "Rupee record low 68.85",
+   "firstDayPct": 0.2,
+   "d20Pct": 10.5,
+   "worst60Pct": 0.2,
+   "recoveryDays": 0
+  },
+  {
+   "date": "2015-08-24",
+   "label": "global-financial",
+   "name": "China devaluation sell-off",
+   "firstDayPct": -5.9,
+   "d20Pct": -4.3,
+   "worst60Pct": -9,
+   "recoveryDays": 40
+  },
+  {
+   "date": "2016-09-29",
+   "label": "war-indo-pak",
+   "name": "Uri surgical strikes",
+   "firstDayPct": -1.6,
+   "d20Pct": -1.2,
+   "worst60Pct": -8.9,
+   "recoveryDays": 3
+  },
+  {
+   "date": "2016-11-09",
+   "label": "tax-policy",
+   "name": "Demonetisation",
+   "firstDayPct": -1.2,
+   "d20Pct": -4.9,
+   "worst60Pct": -6.6,
+   "recoveryDays": 54
+  },
+  {
+   "date": "2018-02-02",
+   "label": "tax-policy",
+   "name": "LTCG tax in Budget",
+   "firstDayPct": -2.3,
+   "d20Pct": -6,
+   "worst60Pct": -9.2,
+   "recoveryDays": 106
+  },
+  {
+   "date": "2018-09-21",
+   "label": "credit",
+   "name": "IL&FS / DHFL",
+   "firstDayPct": -0.8,
+   "d20Pct": -8,
+   "worst60Pct": -10.2,
+   "recoveryDays": 114
+  },
+  {
+   "date": "2019-02-15",
+   "label": "war-indo-pak",
+   "name": "Pulwama attack",
+   "firstDayPct": -0.2,
+   "d20Pct": 6,
+   "worst60Pct": -1.5,
+   "recoveryDays": 4
+  },
+  {
+   "date": "2019-02-26",
+   "label": "war-indo-pak",
+   "name": "Balakot strike",
+   "firstDayPct": -0.7,
+   "d20Pct": 5.3,
+   "worst60Pct": -1,
+   "recoveryDays": 4
+  },
+  {
+   "date": "2019-09-20",
+   "label": "positive-policy",
+   "name": "Corporate tax cut",
+   "firstDayPct": 5.3,
+   "d20Pct": 8,
+   "worst60Pct": 4,
+   "recoveryDays": 0
+  },
+  {
+   "date": "2020-03-23",
+   "label": "global-financial",
+   "name": "COVID lockdown",
+   "firstDayPct": -13.2,
+   "d20Pct": 6.5,
+   "worst60Pct": -13.2,
+   "recoveryDays": 3
+  },
+  {
+   "date": "2020-06-16",
+   "label": "war-other",
+   "name": "Galwan clash",
+   "firstDayPct": 1.1,
+   "d20Pct": 10.4,
+   "worst60Pct": 0.8,
+   "recoveryDays": 0
+  },
+  {
+   "date": "2022-02-24",
+   "label": "war-oil",
+   "name": "Russia invades Ukraine",
+   "firstDayPct": -4.7,
+   "d20Pct": 0.2,
+   "worst60Pct": -7.8,
+   "recoveryDays": 14
+  },
+  {
+   "date": "2023-01-27",
+   "label": "corporate",
+   "name": "Hindenburg on Adani",
+   "firstDayPct": -1.5,
+   "d20Pct": -1,
+   "worst60Pct": -4.4,
+   "recoveryDays": 5
+  },
+  {
+   "date": "2023-03-13",
+   "label": "global-financial",
+   "name": "SVB collapse",
+   "firstDayPct": -1.5,
+   "d20Pct": 2.1,
+   "worst60Pct": -2.7,
+   "recoveryDays": 15
+  },
+  {
+   "date": "2023-10-09",
+   "label": "war-oil",
+   "name": "Hamas attack on Israel",
+   "firstDayPct": -0.7,
+   "d20Pct": -1.6,
+   "worst60Pct": -4.3,
+   "recoveryDays": 1
+  },
+  {
+   "date": "2024-04-15",
+   "label": "war-oil",
+   "name": "Iran drones on Israel",
+   "firstDayPct": -1.1,
+   "d20Pct": -1.5,
+   "worst60Pct": -2.9,
+   "recoveryDays": 7
+  },
+  {
+   "date": "2024-06-04",
+   "label": "election",
+   "name": "2024 result",
+   "firstDayPct": -5.7,
+   "d20Pct": 3.9,
+   "worst60Pct": -5.7,
+   "recoveryDays": 3
+  },
+  {
+   "date": "2024-07-23",
+   "label": "tax-policy",
+   "name": "Budget capital gains / STT hike",
+   "firstDayPct": -0.1,
+   "d20Pct": 0.4,
+   "worst60Pct": -2.4,
+   "recoveryDays": 3
+  },
+  {
+   "date": "2024-08-05",
+   "label": "global-financial",
+   "name": "Yen carry unwind",
+   "firstDayPct": -2.7,
+   "d20Pct": 1.9,
+   "worst60Pct": -2.9,
+   "recoveryDays": 12
+  },
+  {
+   "date": "2024-10-03",
+   "label": "war-oil",
+   "name": "Iran missiles + SEBI F&O curbs",
+   "firstDayPct": -2.1,
+   "d20Pct": -5.1,
+   "worst60Pct": -8.4,
+   "recoveryDays": 259
+  },
+  {
+   "date": "2025-04-07",
+   "label": "trade",
+   "name": "US \"Liberation Day\" tariffs",
+   "firstDayPct": -3,
+   "d20Pct": 6.6,
+   "worst60Pct": -3,
+   "recoveryDays": 4
+  },
+  {
+   "date": "2025-04-23",
+   "label": "war-indo-pak",
+   "name": "Pahalgam attack",
+   "firstDayPct": 0.7,
+   "d20Pct": 2.5,
+   "worst60Pct": -0.5,
+   "recoveryDays": 0
+  },
+  {
+   "date": "2025-05-07",
+   "label": "war-indo-pak",
+   "name": "Operation Sindoor",
+   "firstDayPct": 0.1,
+   "d20Pct": 0.1,
+   "worst60Pct": -1.5,
+   "recoveryDays": 0
+  },
+  {
+   "date": "2025-05-12",
+   "label": "de-escalation",
+   "name": "India–Pakistan ceasefire",
+   "firstDayPct": 3.7,
+   "d20Pct": 3.4,
+   "worst60Pct": 1.4,
+   "recoveryDays": 0
+  },
+  {
+   "date": "2025-06-13",
+   "label": "war-oil",
+   "name": "Israel strikes Iran",
+   "firstDayPct": -0.7,
+   "d20Pct": 1.8,
+   "worst60Pct": -2.3,
+   "recoveryDays": 1
+  },
+  {
+   "date": "2025-08-28",
+   "label": "trade",
+   "name": "US 50% tariff on India",
+   "firstDayPct": -0.9,
+   "d20Pct": 1.2,
+   "worst60Pct": -1.2,
+   "recoveryDays": 7
+  },
+  {
+   "date": "2025-09-22",
+   "label": "sector-disruption",
+   "name": "US $100k H-1B fee",
+   "firstDayPct": -0.6,
+   "d20Pct": 2.1,
+   "worst60Pct": -2.9,
+   "recoveryDays": 17
+  },
+  {
+   "date": "2026-02-24",
+   "label": "sector-disruption",
+   "name": "AI scare hits Indian IT",
+   "firstDayPct": -1.3,
+   "d20Pct": -11.1,
+   "worst60Pct": -13.6,
+   "recoveryDays": null
+  },
+  {
+   "date": "2026-03-02",
+   "label": "war-oil",
+   "name": "US/Israel–Iran war",
+   "firstDayPct": -1.3,
+   "d20Pct": -10,
+   "worst60Pct": -11.5,
+   "recoveryDays": null
+  },
+  {
+   "date": "2026-04-08",
+   "label": "de-escalation",
+   "name": "US–Iran ceasefire",
+   "firstDayPct": 3.9,
+   "d20Pct": 4.3,
+   "worst60Pct": -1.5,
+   "recoveryDays": 0
+  },
+  {
+   "date": "2026-07-08",
+   "label": "war-oil",
+   "name": "Truce collapses",
+   "firstDayPct": -2.1,
+   "d20Pct": 0.3,
+   "worst60Pct": -7.3,
+   "recoveryDays": 18
+  },
+  {
+   "date": "2026-10-08",
+   "label": "rates",
+   "name": "RBI surprise hike, Brent $104",
+   "firstDayPct": -1.4,
+   "d20Pct": null,
+   "worst60Pct": -1.4,
+   "recoveryDays": null
+  }
+ ],
+ "events": [
+  {
+   "label": "war-indo-pak",
+   "events": 8,
+   "medianFirstDayPct": -0.2,
+   "medianWorst60Pct": -1.5,
+   "medianRecoveryDays": 4,
+   "higherAfter60": 0.75
+  },
+  {
+   "label": "global-financial",
+   "events": 7,
+   "medianFirstDayPct": -3.4,
+   "medianWorst60Pct": -9,
+   "medianRecoveryDays": 15,
+   "higherAfter60": 0.5714285714285714
+  },
+  {
+   "label": "war-oil",
+   "events": 8,
+   "medianFirstDayPct": -1.1,
+   "medianWorst60Pct": -6.3,
+   "medianRecoveryDays": 14,
+   "higherAfter60": 0.375
+  },
+  {
+   "label": "election",
+   "events": 3,
+   "medianFirstDayPct": -5.7,
+   "medianWorst60Pct": -5.7,
+   "medianRecoveryDays": 3,
+   "higherAfter60": 0.6666666666666666
+  },
+  {
+   "label": "rates",
+   "events": 2,
+   "medianFirstDayPct": -1.4,
+   "medianWorst60Pct": -1.4,
+   "medianRecoveryDays": 10000,
+   "higherAfter60": 0
+  },
+  {
+   "label": "fx",
+   "events": 1,
+   "medianFirstDayPct": 0.2,
+   "medianWorst60Pct": 0.2,
+   "medianRecoveryDays": 0,
+   "higherAfter60": 1
+  },
+  {
+   "label": "tax-policy",
+   "events": 3,
+   "medianFirstDayPct": -1.2,
+   "medianWorst60Pct": -6.6,
+   "medianRecoveryDays": 54,
+   "higherAfter60": 0.6666666666666666
+  },
+  {
+   "label": "credit",
+   "events": 1,
+   "medianFirstDayPct": -0.8,
+   "medianWorst60Pct": -10.2,
+   "medianRecoveryDays": 114,
+   "higherAfter60": 0
+  },
+  {
+   "label": "positive-policy",
+   "events": 1,
+   "medianFirstDayPct": 5.3,
+   "medianWorst60Pct": 4,
+   "medianRecoveryDays": 0,
+   "higherAfter60": 1
+  },
+  {
+   "label": "war-other",
+   "events": 1,
+   "medianFirstDayPct": 1.1,
+   "medianWorst60Pct": 0.8,
+   "medianRecoveryDays": 0,
+   "higherAfter60": 1
+  },
+  {
+   "label": "corporate",
+   "events": 1,
+   "medianFirstDayPct": -1.5,
+   "medianWorst60Pct": -4.4,
+   "medianRecoveryDays": 5,
+   "higherAfter60": 1
+  },
+  {
+   "label": "trade",
+   "events": 2,
+   "medianFirstDayPct": -0.9,
+   "medianWorst60Pct": -1.2,
+   "medianRecoveryDays": 7,
+   "higherAfter60": 1
+  },
+  {
+   "label": "de-escalation",
+   "events": 2,
+   "medianFirstDayPct": 3.9,
+   "medianWorst60Pct": 1.4,
+   "medianRecoveryDays": 0,
+   "higherAfter60": 1
+  },
+  {
+   "label": "sector-disruption",
+   "events": 2,
+   "medianFirstDayPct": -0.6,
+   "medianWorst60Pct": -2.9,
+   "medianRecoveryDays": 10000,
+   "higherAfter60": 0.5
+  }
+ ],
+ "levelAtHighs": {
+  "calm": {
+   "days": 625,
+   "hitRate": 0.034
+  },
+  "stormy": {
+   "days": 1120,
+   "hitRate": 0.192
+  },
+  "unsettled": {
+   "days": 172,
+   "hitRate": 0.035
+  },
+  "severe": {
+   "days": 20,
+   "hitRate": 0
+  }
+ }
+}
