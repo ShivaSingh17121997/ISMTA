@@ -10,8 +10,8 @@ async function main(): Promise<void> {
   console.log('✓ Connected to MongoDB');
 
   const db = mongoose.connection.db!;
-  const usersCollection = db.collection('users');
-  const strategiesCollection = db.collection('strategies');
+  const usersCollection = db.collection<any>('users');
+  const strategiesCollection = db.collection<any>('strategies');
 
   const email = 'demo@trader.in';
   const password = 'demo123';
